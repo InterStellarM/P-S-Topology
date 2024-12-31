@@ -17,6 +17,32 @@
         font-style: normal;
         font-weight: bold;
       }
+      .line-numbers {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border: 1px solid #ddd;
+        overflow-x: auto;
+        line-height: 2;
+        counter-reset: line;
+      }
+      .line-numbers > div {
+        display: block;
+        counter-increment: line;
+        position: relative;
+        padding-left: 2em; /* Adjust padding */
+        white-space: pre-wrap;
+      }
+      .line-numbers > div:before {
+        content: counter(line);
+        position: absolute;
+        left: -2.5em; /* Adjust left positioning to move line numbers further left */
+        color: #888;
+        background: #f4f4f4;
+        padding: 0 0.5em;
+        text-align: right;
+        width: 2em;
+        border-right: 1px solid #ddd;
+      }
     </style>
   </head>
   <body>
@@ -26,5 +52,32 @@
     <p>Latex template: \( E = mc^2 \)</p>
     <p>And here is an example of block LaTeX:</p>
     <div>$$ \int_{a}^{b} x^2 \, dx = \frac{b^3}{3} - \frac{a^3}{3} $$</div>
+    <h2>Example with Line Numbers:</h2>
+    <div class="line-numbers" id="latex-test">
+      <!-- Content from the LaTeX file will be inserted here -->
+    </div>
+
+    <script>
+      // Fetch LaTeX content from an external file
+      fetch("latex-test.txt")
+        .then((response) => response.text())
+        .then((data) => {
+          const latexContainer = document.getElementById("latex-test");
+          const lines = data.split("\n"); // Split by newline
+          lines.forEach((line) => {
+            if (line.trim()) {
+              // Only process non-empty lines
+              const div = document.createElement("div");
+              div.textContent = line;
+              latexContainer.appendChild(div);
+            }
+          });
+          // Process MathJax after inserting the content
+          MathJax.typesetPromise();
+        })
+        .catch((error) =>
+          console.error("Error fetching LaTeX content:", error)
+        );
+    </script>
   </body>
 </html>
