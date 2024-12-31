@@ -38,7 +38,11 @@ for (let i = 0; i < numRows; i++) {
             gridItem.innerHTML = `
                 <div class="card" onclick="flipCard(this)">
                     <div class="front"></div>
-                    <div class="back ${color}">\\(b_{${i}${j}} = a_{${i}${j}}^2\\)</div>
+                    <div class="back ${color}">
+                        <a href="proofs/test.html" target="_blank" style="color: inherit; text-decoration: none;">
+                            proof
+                        </a>
+                    </div>
                 </div>
             `;
         } else if (i === 11 && j === 1){
@@ -46,7 +50,12 @@ for (let i = 0; i < numRows; i++) {
             gridItem.innerHTML = `
                 <div class="card" onclick="flipCard(this)">
                     <div class="front"></div>
-                    <div class="back ${color}">\\(b_{${i}${j}} = a_{${i}${j}}^2\\)</div>
+                    <div class="back ${color}">
+                        <a href="proofs/test2.html" target="_blank" style="color: inherit; text-decoration: none;">
+                            proof
+                        </a>
+                    </div>
+                </div>
                 </div>
             `;
         } else {
