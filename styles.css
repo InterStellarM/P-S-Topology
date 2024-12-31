@@ -1,0 +1,118 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the body fill the viewport height */
+    overflow: hidden; /* Prevent scrolling when grid fits in the viewport */
+}
+
+/* Wrapper for Scrollable Grid */
+.grid-wrapper {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 100vh;
+    max-width: 100vw; /* Limit the width to the viewport */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 100px); /* 10 columns of fixed width */
+    grid-template-rows: repeat(10, 100px);   /* 10 rows of fixed height */
+    gap: 5px;
+    justify-content: start; /* Start alignment for horizontal scroll */
+    align-items: start;    /* Start alignment for vertical scroll */
+    margin: 0 auto;
+}
+
+/* Grid Items */
+.grid-item {
+    perspective: 1000px; /* Enables 3D flipping effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+/* Styling for Header (First Row and Column) */
+.grid-item.header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px; /* Match the width of grid items */
+    height: 100px; /* Match the height of grid items */
+    display: flex; /* Center content */
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Include padding and borders in dimensions */
+}
+
+/* Styling for Flippable Cards */
+.card {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+/* Flip the card when clicked */
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+/* Front Side of the Card */
+.card .front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: black;
+}
+
+/* Back Side of the Card */
+.card .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: rotateY(180deg);
+}
+
+/* Color Options for Back Side */
+.card .back.red {
+    background-color: red;
+    color: white;
+}
+
+.card .back.green {
+    background-color: green;
+    color: white;
+}
+
+.card .back.yellow {
+    background-color: yellow;
+    color: black;
+}
