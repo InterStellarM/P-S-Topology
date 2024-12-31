@@ -32,6 +32,12 @@ body {
     margin: 0 auto;
 }
 
+/* .grid-container > :nth-child(-n+12) {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+} */
+
 /* Grid Items */
 .grid-item {
     perspective: 1000px; /* Enables 3D flipping effect */
@@ -43,6 +49,10 @@ body {
 
 /* Styling for Header (First Row and Column) */
 .grid-item.header {
+
+    position: sticky;
+    top: 0;
+    z-index: 1; 
     background-color: #007bff;
     color: white;
     text-align: center;
@@ -108,11 +118,21 @@ body {
 }
 
 .card .back.green {
-    background-color: green;
+    background-color: lime;
     color: white;
 }
 
 .card .back.yellow {
     background-color: yellow;
     color: black;
+}
+
+.card .back.grey {
+    background-color: grey;
+    color: black;
+}
+
+.transparent {
+    background-color: transparent; /* Make it see-through */
+    border: none; /* Optional: Remove the border if desired */
 }
