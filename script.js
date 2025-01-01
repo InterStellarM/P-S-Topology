@@ -1,30 +1,31 @@
 // Specify the number of rows and columns for the grid
 const numRows = 17;
-const numCols = 11;
+const numCols = 13;
 
 // List of possible back colors
-const colors = ['red', 'green', 'yellow', 'grey'];
+const colors = ['red', 'green', 'yellow', 'gray'];
 
 // Define grid data for headers, row labels, and cell colors
 const gridData = {
-    headers: ["", "\\(\\mathbb{Q}\\)","\\(\\mathbb{R}_l\\)", "\\(\\mathbb{R}_l^2\\)", "\\(\\mathbb{R}_K\\)", "\\(\\mathbb{R}^\\omega\\) Product", "R^ω Uniform", "R^ω Box", "R^J Product", "R^J Box", "I₀ × I₀ Order"],
+    headers: ["", "\\(\\mathbb{Q}\\)", "\\(\\mathbb{R}\\)","\\(\\mathbb{R}_l\\)", "\\(\\mathbb{R}_l^2\\)", "\\(\\mathbb{R}_K\\)", "\\(\\mathbb{R}^\\omega\\)" + "Product", "\\(\\mathbb{R}^\\omega\\) Uniform", "\\(\\mathbb{R}^\\omega\\) Box", "\\(\\mathbb{R}^J\\) Product", "\\(\\mathbb{R}^J\\) Box", "\\(I_0\\)", "\\(I_0^2\\)"],
     rows: [
-        { label: "Connected", cells: ["red", "red", "green", "green", "red", "red", "grey", "red", "green", "red"] },
-        { label: "Path connected", cells: ["red", "red", "green", "grey", "red", "red", "grey", "red", "green", "red"] },
-        { label: "Compact", cells: ["red", "red", "green", "grey", "red", "red", "grey", "red", "red", "red"] },
-        { label: "Limit point compact", cells: ["grey", "red", "red", "grey", "red", "red", "grey", "red", "red", "red"] },
-        { label: "Sequential compact", cells: ["red", "grey", "red", "grey", "red", "red", "grey", "red", "red", "red"] },
-        { label: "Local compact", cells: ["red", "red", "green", "grey", "grey", "red", "grey", "red", "green", "red"] },
-        { label: "1st countable", cells: ["green", "green", "green", "grey", "green", "red", "grey", "red", "green", "red"] },
-        { label: "2nd countable", cells: ["green", "green", "green", "grey", "green", "red", "grey", "red", "green", "red"] },
-        { label: "Separable", cells: ["green", "green", "green", "grey", "green", "red", "grey", "red", "green", "red"] },
-        { label: "Lindelöf", cells: ["green", "green", "green", "grey", "green", "red", "grey", "red", "green", "red"] },
-        { label: "T2", cells: ["green", "green", "green", "grey", "green", "red", "grey", "red", "green", "red"] },
-        { label: "T3", cells: ["green", "green", "green", "grey", "green", "red", "grey", "red", "green", "red"] },
-        { label: "T3.5", cells: ["green", "green", "green", "grey", "green", "red", "grey", "red", "green", "red"] },
-        { label: "T4", cells: ["green", "green", "green", "yellow", "green", "red", "grey", "red", "green", "red"] },
-        { label: "T5", cells: ["green", "green", "green", "yellow", "green", "red", "grey", "red", "green", "red"] },
-        { label: "Metrizable", cells: ["green", "green", "green", "yellow", "green", "red", "grey", "red", "green", "red"] }
+        //                                              Q        R        R_l      R_l^2    R_K      w-pro    w-uni    w-box     J-pro    J-box    I_0      I_0^2
+        { label: "1st countable",               cells: ["green", "green", "green", "green", "green", "green", "red",   "red",    "gray", "gray",   "gray",  "green"] },
+        { label: "2nd countable",               cells: ["green", "green", "red",   "red",   "green", "green", "red",   "red",    "gray", "gray",   "gray",  "red"] },
+        { label: "Separable",                   cells: ["green", "green", "green", "green", "green", "green", "red",   "red",    "gray", "gray",   "gray",  "red"] },
+        { label: "Lindelöf",                    cells: ["green", "green", "green", "red",   "green", "green", "gray",  "red",    "gray", "gray",   "gray",  "green"] },
+        { label: "Hausdorff (T2)",              cells: ["gray",  "green", "green", "green", "green", "green", "green", "green",  "gray", "green",  "gray",  "gray"] },
+        { label: "Regular (T3)",                cells: ["gray",  "green", "green", "green", "red",   "green", "green", "green",  "gray", "green",  "gray",  "gray"] },
+        { label: "Completely Regular (T3.5)",   cells: ["gray",  "green", "green", "green", "red",   "green", "green", "green",  "gray", "green",  "gray",  "gray"] },
+        { label: "Normal (T4)",                 cells: ["gray",  "green", "green", "red",   "red",   "green", "green", "yellow", "gray", "gray",   "gray",  "gray"] },
+        { label: "Completely Normal (T5)",      cells: ["gray",  "gray",  "gray",  "gray",  "gray",  "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] },
+        { label: "Metrizable",                  cells: ["gray",  "green", "red",   "red",   "red",   "green", "green", "red",    "red",  "red",    "gray",  "red"] },
+        { label: "Connected",                   cells: ["gray",  "green", "red",   "gray",  "green", "green", "red",   "red",    "gray", "gray",   "gray",  "green"] },
+        { label: "Path connected",              cells: ["gray",  "green", "red",   "gray",  "red",   "gray",  "red",   "red",    "gray", "gray",   "gray",  "red"] },
+        { label: "Compact",                     cells: ["gray",  "red",   "red",   "red",   "red",   "red",   "gray",  "red",    "gray", "gray",   "green", "green"] },
+        { label: "Limit point compact",         cells: ["gray",  "red",   "red",   "gray",  "gray",  "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] },
+        { label: "Sequential compact",          cells: ["gray",  "red",   "gray",  "gray",  "gray",  "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] },
+        { label: "Local compact",               cells: ["red",   "green", "red",   "gray",  "red",   "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] }
     ],
 };
 
