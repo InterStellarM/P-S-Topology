@@ -69,14 +69,25 @@ for (let i = 0; i < numRows; i++) {
         // Data cells
         else {
             const color = gridData.rows[i - 1].cells[j - 1]; // Get color from gridData
-            gridItem.innerHTML = `
+
+            if (color === colors[3]){
+                gridItem.innerHTML = `
+                <div class="front gray"></div>
+                `
+            } else{
+                // const dash = "--"
+                const proofPath = `proofs/${colHeaders[j-1]}/${rowHeaders[i - 1]}/${colHeaders[j-1]}--${rowHeaders[i - 1]}.html`;
+                gridItem.innerHTML = `
                 <div class="card" onclick="flipCard(this)">
                     <div class="front">\\(a_{${i}${j}}\\)</div>
                     <div class="back ${color}">
-                        <a href="#" style="color: inherit; text-decoration: none;">proof</a>
+                        <a href="${proofPath}" style="color: inherit; text-decoration: none;">proof</a>
                     </div>
                 </div>
             `;
+            }
+// <a href="proofs/${colHeaders[j-1]}/${rowHeaders[i - 1]}/${colHeaders[j-1]}--${rowHeaders[i - 1]}.html" style="color: inherit; text-decoration: none;">proof</a>
+
         }
 
         // Add the grid item to the container

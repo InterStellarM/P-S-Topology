@@ -97,6 +97,11 @@ body {
     color: black;
 }
 
+.card .frount .gray{
+    background-color: gray;
+    color: black;
+}
+
 /* Back Side of the Card */
 .card .back {
     position: absolute;
