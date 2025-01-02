@@ -13,7 +13,7 @@ const gridData = {
     headers: ["", "\\(\\mathbb{Q}\\)", "\\(\\mathbb{R}\\)","\\(\\mathbb{R}_l\\)", "\\(\\mathbb{R}_l^2\\)", "\\(\\mathbb{R}_K\\)", "\\(\\mathbb{R}^\\omega\\)" + "Product", "\\(\\mathbb{R}^\\omega\\) Uniform", "\\(\\mathbb{R}^\\omega\\) Box", "\\(\\mathbb{R}^J\\) Product", "\\(\\mathbb{R}^J\\) Box", "\\(I_0\\)", "\\(I_0^2\\)"],
     rows: [
         //                                              Q        R        R_l      R_l^2    R_K      w-pro    w-uni    w-box     J-pro    J-box    I_0      I_0^2
-        { label: "1st countable",               cells: ["green", "green", "green", "green", "green", "green", "red",   "red",    "gray", "gray",   "gray",  "green"] },
+        { label: "1st countable",               cells: ["green", "green", "green", "green", "green", "green", "green", "red",    "gray", "gray",   "gray",  "green"] },
         { label: "2nd countable",               cells: ["green", "green", "red",   "red",   "green", "green", "red",   "red",    "gray", "gray",   "gray",  "red"] },
         { label: "Separable",                   cells: ["green", "green", "green", "green", "green", "green", "red",   "red",    "gray", "gray",   "gray",  "red"] },
         { label: "Lindelöf",                    cells: ["green", "green", "green", "red",   "green", "green", "gray",  "red",    "gray", "gray",   "gray",  "green"] },

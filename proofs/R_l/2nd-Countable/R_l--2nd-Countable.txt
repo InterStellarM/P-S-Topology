@@ -1,0 +1,6 @@
+\( \forall x \in \mathbb{R}_l \),  let \( \mathcal{B} = \{[x, x + \frac{1}{n}) : n \in  \mathbb{Z}^+ \} \)
+\( \mathcal{B} \) is a countable collection of neighborhoods of \( x \).
+In \( \mathbb{R}_l \), basis elements containing \( x \) have the form \( U = (a, b) \text{, } a < x < b \text{  or  } U = [a, b)\text{, } a \leq x < b\).
+For either cases, by Archimedean property, \( \exists N \in \mathbb{Z}^+ \) such that \( \frac{1}{N} < b-x \)
+\( \implies [x, x + \frac{1}{N}) \in \mathcal{B} \text{ and }  [x, x + \frac{1}{N}) \subset U \)
+\( \implies \mathbb{R}_l \text{ is first countable.} \) 
