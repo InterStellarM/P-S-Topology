@@ -5,6 +5,9 @@ const numCols = 13;
 // List of possible back colors
 const colors = ['red', 'green', 'yellow', 'gray'];
 
+const colHeaders = ["Q", "R", "R_l", "R_l^2", "R_K", "R^w-Pro", "R^w-Uni", "R^w-Box", "R^J-Pro", "R^J-Box", "I_0", "I_0^2"]
+const rowHeaders = ["1st-Countable", "2nd-Countable", "Separable", "Lindelof", "T2", "T3", "T3-5", "T4", "T5", "Metrizable", "Connected", "P-Connected", "Compact", "LP-Compact", "SQ-Compact", "LC-Compact"]
+
 // Define grid data for headers, row labels, and cell colors
 const gridData = {
     headers: ["", "\\(\\mathbb{Q}\\)", "\\(\\mathbb{R}\\)","\\(\\mathbb{R}_l\\)", "\\(\\mathbb{R}_l^2\\)", "\\(\\mathbb{R}_K\\)", "\\(\\mathbb{R}^\\omega\\)" + "Product", "\\(\\mathbb{R}^\\omega\\) Uniform", "\\(\\mathbb{R}^\\omega\\) Box", "\\(\\mathbb{R}^J\\) Product", "\\(\\mathbb{R}^J\\) Box", "\\(I_0\\)", "\\(I_0^2\\)"],
@@ -18,14 +21,14 @@ const gridData = {
         { label: "Regular (T3)",                cells: ["gray",  "green", "green", "green", "red",   "green", "green", "green",  "gray", "green",  "gray",  "gray"] },
         { label: "Completely Regular (T3.5)",   cells: ["gray",  "green", "green", "green", "red",   "green", "green", "green",  "gray", "green",  "gray",  "gray"] },
         { label: "Normal (T4)",                 cells: ["gray",  "green", "green", "red",   "red",   "green", "green", "yellow", "gray", "gray",   "gray",  "gray"] },
-        { label: "Completely Normal (T5)",      cells: ["gray",  "gray",  "gray",  "gray",  "gray",  "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] },
+        { label: "Completely Normal (T5)",      cells: ["gray",  "gray",  "gray",  "red",   "red",   "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] },
         { label: "Metrizable",                  cells: ["gray",  "green", "red",   "red",   "red",   "green", "green", "red",    "red",  "red",    "gray",  "red"] },
         { label: "Connected",                   cells: ["gray",  "green", "red",   "gray",  "green", "green", "red",   "red",    "gray", "gray",   "gray",  "green"] },
         { label: "Path connected",              cells: ["gray",  "green", "red",   "gray",  "red",   "gray",  "red",   "red",    "gray", "gray",   "gray",  "red"] },
         { label: "Compact",                     cells: ["gray",  "red",   "red",   "red",   "red",   "red",   "gray",  "red",    "gray", "gray",   "green", "green"] },
         { label: "Limit point compact",         cells: ["gray",  "red",   "red",   "gray",  "gray",  "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] },
-        { label: "Sequential compact",          cells: ["gray",  "red",   "gray",  "gray",  "gray",  "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] },
-        { label: "Local compact",               cells: ["red",   "green", "red",   "gray",  "red",   "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] }
+        { label: "Sequentially compact",        cells: ["gray",  "red",   "gray",  "gray",  "gray",  "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] },
+        { label: "Locally compact",             cells: ["red",   "green", "red",   "gray",  "red",   "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] }
     ],
 };
 
@@ -50,12 +53,18 @@ for (let i = 0; i < numRows; i++) {
         // Header cells (first row)
         else if (i === 0) {
             gridItem.classList.add('header');
-            gridItem.innerHTML = gridData.headers[j]; // Set header content
+            // gridItem.innerHTML = gridData.headers[j]; // Set header content
+            gridItem.innerHTML = `
+                <a href="definitions/${colHeaders[j-1]}.html" style="color: inherit; text-decoration: none;">${gridData.headers[j]}</a>
+            `;
         }
         // Row labels (first column)
         else if (j === 0) {
             gridItem.classList.add('header');
-            gridItem.innerHTML = gridData.rows[i - 1].label; // Set row label
+            // gridItem.innerHTML = gridData.rows[i - 1].label; // Set row label
+            gridItem.innerHTML = `
+                <a href="definitions/${rowHeaders[i - 1]}.html" style="color: inherit; text-decoration: none;">${gridData.rows[i - 1].label}</a>
+            `;
         }
         // Data cells
         else {
