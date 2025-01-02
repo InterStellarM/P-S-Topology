@@ -2,3 +2,4 @@
 \( \int_{0}^{\infty} e^{-x} \, dx = 1 \)
 \( f(x) = \sum_{n=0}^{\infty} \frac{x^n}{n!} \)
 \( R^2 \)
+Learn more about Pythagorean theorem <a href="test2.html">here</a>.
