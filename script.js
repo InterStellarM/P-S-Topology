@@ -5,7 +5,7 @@ const numCols = 13;
 // List of possible back colors
 const colors = ['red', 'green', 'yellow', 'gray'];
 
-const colHeaders = ["Q", "R", "R_l", "R_l^2", "R_K", "R^w-Pro", "R^w-Uni", "R^w-Box", "R^J-Pro", "R^J-Box", "I_0", "I_0^2"]
+const colHeaders = ["Q", "R", "R_l", "R_l**2", "R_K", "R**w-Pro", "R**w-Uni", "R**w-Box", "R**J-Pro", "R**J-Box", "I_0", "I_0**2"]
 const rowHeaders = ["1st-Countable", "2nd-Countable", "Separable", "Lindelof", "T2", "T3", "T3-5", "T4", "T5", "Metrizable", "Connected", "P-Connected", "Compact", "LP-Compact", "SQ-Compact", "LC-Compact"]
 
 // Define grid data for headers, row labels, and cell colors
@@ -74,12 +74,24 @@ for (let i = 0; i < numRows; i++) {
                 gridItem.innerHTML = `
                 <div class="front gray"></div>
                 `
+            } else if(color === colors[2]){
+                const proofPath = `proofs/${colHeaders[j-1]}/${rowHeaders[i - 1]}/${colHeaders[j-1]}--${rowHeaders[i - 1]}.html`;
+                gridItem.innerHTML = `
+                <div class="card" onclick="flipCard(this)">
+                    <!-- <div class="front">\\(a_{${i}${j}}\\)</div> -->
+                    <div class="front"></div>
+                    <div class="back ${color}">
+                        <a href="${proofPath}" style="color: inherit; text-decoration: none;">explanation</a>
+                    </div>
+                </div>
+            `;
             } else{
                 // const dash = "--"
                 const proofPath = `proofs/${colHeaders[j-1]}/${rowHeaders[i - 1]}/${colHeaders[j-1]}--${rowHeaders[i - 1]}.html`;
                 gridItem.innerHTML = `
                 <div class="card" onclick="flipCard(this)">
-                    <div class="front">\\(a_{${i}${j}}\\)</div>
+                    <!-- <div class="front">\\(a_{${i}${j}}\\)</div> -->
+                    <div class="front"></div>
                     <div class="back ${color}">
                         <a href="${proofPath}" style="color: inherit; text-decoration: none;">proof</a>
                     </div>
