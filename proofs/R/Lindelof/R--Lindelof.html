@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LaTeX in HTML</title>
+    <title>R--Lindelof</title>
     <!-- Include MathJax -->
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
@@ -46,21 +46,18 @@
     </style>
   </head>
   <body>
-    <h1>Sorgenfrey plane \( \mathbb{R}_l^2 \) is first-countable</h1>
-    <!-- <p>Exercise 21.6 in Munkres.</p> -->
+    <h1>\( \mathbb{R} \) with standard topology is Lindelöf</h1>
     <h2><b>Proof:</b></h2>
-    <div class="line-numbers" id="R_l**2--1st-Countable">
+    <div class="line-numbers" id="R--Lindelof">
       <!-- Content from the LaTeX file will be inserted here -->
     </div>
 
     <script>
       // Fetch LaTeX content from an external file
-      fetch("R_l**2--1st-Countable.txt")
+      fetch("R--Lindelof.txt")
         .then((response) => response.text())
         .then((data) => {
-          const latexContainer = document.getElementById(
-            "R_l**2--1st-Countable"
-          );
+          const latexContainer = document.getElementById("R--Lindelof");
           const lines = data.split("\n"); // Split by newline
           lines.forEach((line) => {
             if (line.trim()) {

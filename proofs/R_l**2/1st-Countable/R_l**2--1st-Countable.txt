@@ -1,3 +1,3 @@
-Because <a href="/P-S-Topology/proofs/R_l/1st-Countable/R_l--1st-Countable.html">\( \mathbb{R}_l \) is first countable</a>,
+Because <a href="/P-S-Topology/proofs/R_l/1st-Countable/R_l--1st-Countable.html">\( \mathbb{R}_l \) is first-countable</a>,
 by <a href="/P-S-Topology/theorems/Thm-30-2.html">Theorem 30.2</a>, 
-\( \mathbb{R}_l^2 \) is first countable.
+\( \mathbb{R}_l^2 \) is first-countable.

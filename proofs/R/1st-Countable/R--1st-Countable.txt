@@ -1,0 +1,2 @@
+Because <a href="/P-S-Topology/proofs/R/2nd-Countable/R--2nd-Countable.html">\( \mathbb{R} \) is second-countable</a>, \( \mathbb{R} \) is first-countable. 
+(This is stated in Munkres after definition of second-countable)

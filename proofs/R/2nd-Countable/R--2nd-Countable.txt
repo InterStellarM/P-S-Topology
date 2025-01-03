@@ -1,0 +1,2 @@
+Claim: \( \mathcal{B} = \{(a, b): a < b, a, b \in \mathbb{Q}\} \) is a countable basis of \(\mathbb{R}\).
+

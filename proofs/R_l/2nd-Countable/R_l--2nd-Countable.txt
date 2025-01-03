@@ -5,4 +5,4 @@ If \( x \neq y \), then \( B_x \neq B_y\) \(\text{,}\) since \( x =  \inf B_x \)
 There are uncountable many of \(x\) in \(\mathbb{R}_l\) \(\text{,}\) so there are uncountable many of \( B_x \) in \( \mathcal{B} \).
 Therefore \( \mathcal{B} \) is uncountable.
 \(\iff \nexists \) a countable basis of  \( \mathbb{R}_l \).
-\(\implies \mathbb{R}_l\) is not second countable 
+\(\implies \mathbb{R}_l\) is not second-countable 
