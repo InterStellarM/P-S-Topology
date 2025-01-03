@@ -16,7 +16,7 @@ const gridData = {
         { label: "1st countable",               cells: ["green", "green", "green", "green", "green", "green", "green", "red",    "gray", "gray",   "gray",  "green"] },
         { label: "2nd countable",               cells: ["green", "green", "red",   "red",   "green", "green", "red",   "red",    "gray", "gray",   "gray",  "red"] },
         { label: "Separable",                   cells: ["green", "green", "green", "green", "green", "green", "red",   "red",    "gray", "gray",   "gray",  "red"] },
-        { label: "Lindelöf",                    cells: ["green", "green", "green", "red",   "green", "green", "gray",  "red",    "gray", "gray",   "gray",  "green"] },
+        { label: "Lindelöf",                    cells: ["green", "green", "green", "red",   "green", "green", "red",   "red",    "gray", "gray",   "gray",  "green"] },
         { label: "Hausdorff (T2)",              cells: ["gray",  "green", "green", "green", "green", "green", "green", "green",  "gray", "green",  "gray",  "gray"] },
         { label: "Regular (T3)",                cells: ["gray",  "green", "green", "green", "red",   "green", "green", "green",  "gray", "green",  "gray",  "gray"] },
         { label: "Completely Regular (T3.5)",   cells: ["gray",  "green", "green", "green", "red",   "green", "green", "green",  "gray", "green",  "gray",  "gray"] },
