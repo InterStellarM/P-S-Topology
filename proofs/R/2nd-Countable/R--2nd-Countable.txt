@@ -1,2 +1,8 @@
 Claim: \( \mathcal{B} = \{(a, b): a < b, a, b \in \mathbb{Q}\} \) is a countable basis of \(\mathbb{R}\).
 
+Proof:
+\(1^\circ (\text{ Countability }): \text{ Each pair } (a, b) \in \mathbb{Q} \times \mathbb{Q} \text{ with } a < b \text{ can be uniquely indexed since } \mathbb{Q} \times \mathbb{Q} \text{ is countable. Hence, } \mathcal{B} \text{ is countable.} \\ \)
+
+\(2^\circ \text{ (Basis property of } \mathcal{B} \text{)}: \text{ For any open interval } (c, d) \subseteq \mathbb{R}, \text{ there exists } (a, b) \in \mathcal{B} \text{ such that } c < a \text{ and } b < d. \text{ This shows that } \mathcal{B} \text{ forms a basis.} \\ \)
+
+\(3^\circ \text{ (Conclusion)}: \text{ Since } \mathcal{B} \text{ is countable and forms a basis for the topology of } \mathbb{R}, \text{ it follows that } \mathcal{B} \text{ is a countable basis of } \mathbb{R}.\)
