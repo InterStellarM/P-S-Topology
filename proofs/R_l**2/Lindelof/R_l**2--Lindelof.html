@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>R_l--Lindelof</title>
+    <title>R_l**2--Lindelof</title>
     <!-- Include MathJax -->
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
@@ -46,20 +46,23 @@
     </style>
   </head>
   <body>
-    <h1>Lower limit topology \( \mathbb{R}_l \) is Lindelöf</h1>
-    <p>\( \S \)30 example 3 in Munkres.</p>
+    <h1>Lower limit topology \( \mathbb{R}_l^2 \) is <em>not</em> Lindelöf</h1>
+    <p>\( \S \)30 example 4 in Munkres.</p>
     <h2><b>Proof:</b></h2>
-    <div class="line-numbers" id="R_l--Lindelof">
+    <div class="line-numbers" id="R_l**2--Lindelof">
       <!-- Content from the LaTeX file will be inserted here -->
     </div>
-    <p></p>
+    <p>
+      This is a very good example of product of two Lindelöf spaces may not be
+      Lindelöf.
+    </p>
 
     <script>
       // Fetch LaTeX content from an external file
-      fetch("R_l--Lindelof.txt")
+      fetch("R_l**2--Lindelof.txt")
         .then((response) => response.text())
         .then((data) => {
-          const latexContainer = document.getElementById("R_l--Lindelof");
+          const latexContainer = document.getElementById("R_l**2--Lindelof");
           const lines = data.split("\n"); // Split by newline
           lines.forEach((line) => {
             if (line.trim()) {
