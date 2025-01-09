@@ -1,8 +1,28 @@
-Claim: \( \mathcal{B} = \{(a, b): a < b, a, b \in \mathbb{Q}\} \) is a countable basis of \(\mathbb{R}\).
+Claim: \( \mathcal{B} = \{(a, b): a < b; a, b \in \mathbb{Q}\} \) is a countable basis of \(\mathbb{R}\).
+
+\(  \)
 
 Proof:
-\(1^\circ (\text{ Countability }): \text{ Each pair } (a, b) \in \mathbb{Q} \times \mathbb{Q} \text{ with } a < b \text{ can be uniquely indexed since } \mathbb{Q} \times \mathbb{Q} \text{ is countable. Hence, } \mathcal{B} \text{ is countable.} \\ \)
 
-\(2^\circ \text{ (Basis property of } \mathcal{B} \text{)}: \text{ For any open interval } (c, d) \subseteq \mathbb{R}, \text{ there exists } (a, b) \in \mathcal{B} \text{ such that } c < a \text{ and } b < d. \text{ This shows that } \mathcal{B} \text{ forms a basis.} \\ \)
 
-\(3^\circ \text{ (Conclusion)}: \text{ Since } \mathcal{B} \text{ is countable and forms a basis for the topology of } \mathbb{R}, \text{ it follows that } \mathcal{B} \text{ is a countable basis of } \mathbb{R}.\)
+\(1^\circ : \forall x \in \mathbb{R}, \exists N \in \mathbb{Z} \) such that \( x \in (N-1, N+1) \in \mathcal{B} \).
+
+\(  \)
+
+\(2^\circ: \) If \(x\) belongs to the intersection of tw elements \(B_1\) and \(B_2 \in \mathcal{B}\), we can write \(B_1 = (a,b)\) and  \( B_2 = (c,d) \), where \( a < c < b < d \).
+       Then \( x \in (c,b) \subseteq B_1 \cap B_2 \), and \( (c,b) \in \mathcal{B} \).
+
+\(  \)
+
+By \( 1^\circ \) and \( 2^\circ \), \(\mathcal{B}\) forms a <a href="/P-S-Topology/definitions/Basis.html">basis</a>.
+
+\(  \)
+
+\(3^\circ (\text{ Countability }): \) For each interval \( (a,b) \in \mathcal{B} \), we can treat it as a point \( (a,b) \in \mathbb{Q} \times \mathbb{Q} \). 
+                                    \(\mathbb{Q} \times \mathbb{Q}\) is countbable because finite product of countable spaces is countable.
+                                    Then \( \mathcal{B} \) is a subset of \(\mathbb{Q} \times \mathbb{Q}\) and a subset of countable set is countable, so \( \mathcal{B} \) is countable.
+
+
+Therefore  \(\mathcal{B}\) is a countable basis.
+
+\( \Rightarrow \mathbb{R} \) with standard topology is second-countable.
