@@ -21,7 +21,7 @@ const gridData = {
         { label: "Regular (T3)",                cells: ["gray",  "green", "green", "green", "red",   "green", "green", "green",  "gray", "green",  "gray",  "gray"] },
         { label: "Completely Regular (T3.5)",   cells: ["gray",  "green", "green", "green", "red",   "green", "green", "green",  "gray", "green",  "gray",  "gray"] },
         { label: "Normal (T4)",                 cells: ["gray",  "green", "green", "red",   "red",   "green", "green", "yellow", "gray", "gray",   "gray",  "gray"] },
-        { label: "Completely Normal (T5)",      cells: ["gray",  "gray",  "gray",  "red",   "red",   "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] },
+        { label: "Completely Normal (T5)",      cells: ["gray",  "green", "green", "red",   "red",   "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] },
         { label: "Metrizable",                  cells: ["gray",  "green", "red",   "red",   "red",   "green", "green", "red",    "red",  "red",    "gray",  "red"] },
         { label: "Connected",                   cells: ["gray",  "green", "red",   "gray",  "green", "green", "red",   "red",    "gray", "gray",   "gray",  "green"] },
         { label: "Path connected",              cells: ["gray",  "green", "red",   "gray",  "red",   "gray",  "red",   "red",    "gray", "gray",   "gray",  "red"] },
