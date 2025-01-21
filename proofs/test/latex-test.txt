@@ -3,3 +3,22 @@
 \( f(x) = \sum_{n=0}^{\infty} \frac{x^n}{n!} \)
 \( R^2 \)
 Learn more about Pythagorean theorem <a href="test2.html">here</a>.
+
+
+{{generateHyperlink("Integration", "integrals.html")}}
+\( f(x) = \sum_{n=0}^{\infty} \frac{x^n}{n!} \)
+The value of pi is {{getPi()}}.
+
+
+Inline equation example: \( a^2 + b^2 = c^2 \).
+Block equation example:
+
+$$
+\int_{0}^{\infty} e^{-x} \, dx = 1
+$$
+
+Another equation:
+
+$$
+f(x) = \sum_{n=0}^{\infty} \frac{x^n}{n!}
+$$

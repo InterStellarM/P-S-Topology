@@ -1,8 +1,8 @@
-Claim: \( \mathcal{B} = \{(a, b): a < b; a, b \in \mathbb{Q}\} \) is a countable basis of \(\mathbb{R}\).
+<b>Claim:</b> \( \mathcal{B} = \{(a, b): a < b; a, b \in \mathbb{Q}\} \) is a countable basis of \(\mathbb{R}\).
 
 \(  \)
 
-Proof:
+<b>Proof:</b>
 
 
 \(1^\circ : \forall x \in \mathbb{R}, \exists N \in \mathbb{Z} \) such that \( x \in (N-1, N+1) \in \mathcal{B} \).

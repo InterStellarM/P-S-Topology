@@ -29,18 +29,18 @@
         display: block;
         counter-increment: line;
         position: relative;
-        padding-left: 2em; /* Adjust padding */
+        padding-left: 3em; /* Increased padding for line numbers */
         white-space: pre-wrap;
       }
       .line-numbers > div:before {
-        content: counter(line);
+        content: counter(line); /* Automatically increment line numbers */
         position: absolute;
-        left: -2.5em; /* Adjust left positioning to move line numbers further left */
+        left: 0; /* Align line numbers to the left */
         color: #888;
         background: #f4f4f4;
         padding: 0 0.5em;
         text-align: right;
-        width: 2em;
+        width: 1em; /* Increased width for multi-digit line numbers */
         border-right: 1px solid #ddd;
       }
     </style>
