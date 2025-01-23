@@ -1,0 +1,40 @@
+Define:
+
+$$  
+\begin{align*}
+d: \mathbb{R} \times \mathbb{R} &\to \mathbb{R} \\
+      (x,y) &\mapsto \left| x - y \right|
+\end{align*}
+$$
+
+
+<b>Claim:</b> \(d\) is a <a href="/P-S-Topology/definitions/Metric.html">metric</a>.
+
+<b>Proof:</b> 
+
+(1) \( \forall x, y \in \mathbb{R},  \left| x-y \right| \leq 0  \) by definition. \( \left| x-y \right| \Rightarrow x = y \) and \( x = y \Rightarrow \left| x-y \right| = 0 \) trivially.
+
+(2) \( \left| x-y \right| = \left| -(x-y) \right| = \left| y-x \right| \)
+
+(3) \( \left| x-y \right| + \left| y-z \right| \geq \left| (x-y) + (y-z) \right| = \left| x-z \right|\)
+
+\( \Rightarrow d \) is a metric.
+
+
+
+
+\(\)
+
+Then for each basis element \( (a,b) \) for the standard topology, let \( x = (a+b)/2 \) and \( \epsilon = (a-b)/2 \), then \( (a,b) = B_d(x, \epsilon) \).
+
+For each \( B_d(x, \epsilon) \), it is equal to the basis element \( (x-\epsilon, x+\epsilon) \) for the standard topology.
+
+Therefore the topology induced by \(d\) is the standard topology.
+
+\( \Rightarrow \) \(\mathbb{R}\) under standard topology is metrizable.
+
+
+
+
+
+
