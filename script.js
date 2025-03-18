@@ -27,7 +27,7 @@ const gridData = {
         { label: "Path connected",              cells: ["gray",  "green", "red",   "gray",  "red",   "gray",  "red",   "red",    "gray", "gray",   "gray",  "red"] },
         { label: "Compact",                     cells: ["gray",  "red",   "red",   "red",   "red",   "red",   "gray",  "red",    "gray", "gray",   "green", "green"] },
         { label: "Limit point compact",         cells: ["gray",  "red",   "red",   "gray",  "gray",  "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] },
-        { label: "Sequentially compact",        cells: ["gray",  "red",   "gray",  "gray",  "gray",  "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] },
+        { label: "Sequentially compact",        cells: ["gray",  "red",   "gray",  "gray",  "gray",  "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "green"] },
         { label: "Locally compact",             cells: ["red",   "green", "red",   "gray",  "red",   "gray",  "gray",  "gray",   "gray", "gray",   "gray",  "gray"] }
     ],
 };

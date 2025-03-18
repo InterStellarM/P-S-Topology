@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R_K--T3</title>
+    <!-- Include MathJax -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        line-height: 1.6;
+      }
+      em {
+        color: red;
+        font-style: normal;
+        font-weight: bold;
+      }
+      .line-numbers {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border: 1px solid #ddd;
+        overflow-x: auto;
+        line-height: 2;
+        counter-reset: line;
+      }
+      .line-numbers > div {
+        display: block;
+        counter-increment: line;
+        position: relative;
+        padding-left: 3em; /* Increased padding for line numbers */
+        white-space: pre-wrap;
+      }
+      .line-numbers > div:before {
+        content: counter(line); /* Automatically increment line numbers */
+        position: absolute;
+        left: 0; /* Align line numbers to the left */
+        color: #888;
+        background: #f4f4f4;
+        padding: 0 0.5em;
+        text-align: right;
+        width: 1em; /* Increased width for multi-digit line numbers */
+        border-right: 1px solid #ddd;
+      }
+      /* Reduce line spacing for equations */
+      .MathJax_Display {
+        margin-top: 0.3em !important; /* Reduced top margin */
+        margin-bottom: 0.3em !important; /* Reduced bottom margin */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>K-topology \( \mathbb{R}_K \) is <em>not</em> Regular</h1>
+    <p>\( \S \)31 example 1 in Munkres.</p>
+    <h2><b>Proof:</b></h2>
+    <div class="line-numbers" id="R_K--T3">
+      <!-- Content from the LaTeX file will be inserted here -->
+    </div>
+
+    <script>
+      // Fetch LaTeX content from an external file
+      fetch("R_K--T3.txt")
+        .then((response) => response.text())
+        .then((data) => {
+          const latexContainer = document.getElementById("R_K--T3");
+
+          // Split file content by two consecutive line breaks to separate blocks
+          const blocks = data.split(/\n\s*\n/);
+
+          blocks.forEach((block) => {
+            const div = document.createElement("div");
+
+            // Check if the block contains LaTeX block markers ($$)
+            if (block.trim().startsWith("$$") && block.trim().endsWith("$$")) {
+              div.innerHTML = block.trim(); // Treat as block equation
+            } else {
+              div.innerHTML = block.replace(/\n/g, "<br>"); // Treat as text or inline math
+            }
+
+            latexContainer.appendChild(div);
+          });
+
+          // Process MathJax after inserting the content
+          MathJax.typesetPromise();
+        })
+        .catch((error) =>
+          console.error("Error fetching LaTeX content:", error)
+        );
+    </script>
+  </body>
+</html>

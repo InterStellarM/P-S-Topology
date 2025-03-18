@@ -1,0 +1,16 @@
+RK
+
+<b>Claim:</b> K is closed in \(\mathbb{R}_K \).
+
+<b>Proof:</b> \( \mathbb{R} \setminus K \) can be written as \( (- \inf, 1 ) \cap  \)
+
+
+Then prove by contradiction: Suppose there exists disjoint open sets U, V containing 0 and K, respectively. 
+
+By <a href="/P-S-Topology/definitions/Basis.html">definition of basis</a>, there is a <a href="/P-S-Topology/definitions/R_K.html">basis element of \(\mathbb{R}_K\)</a>, B, such that \(0 \in B \subseteq U\).
+
+B must have the form \( (a,b)\setminus K \), otherwise by Archimedean property, \( \exists \) N large enough such that \( \frac{1}{N} < b \Rightarrow \frac{1}{N} \in (a, b)\) which means U intersects with K.
+
+Then we choose n large enough such that \( \frac{1}{n} \in (a, b) \). For the same reason as 0, there is a basis element of \(\mathbb{R}_K\), B', such that such that \( \frac{1}{n} \in B' \subseteq V\), and B' has the form (c, d).
+
+Therefore \( c < \frac{1}{n} < b \). Then we choose \( z < \frac{1}{n}\) \( c > max \{c, \frac{1}{n+1} \} \). So z belongs to both B and B', which means z belongs to both U and V. \( \Rightarrow\Leftarrow \)
