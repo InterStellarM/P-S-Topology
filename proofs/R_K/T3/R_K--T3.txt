@@ -1,9 +1,8 @@
-RK
-
 <b>Claim:</b> K is closed in \(\mathbb{R}_K \).
 
-<b>Proof:</b> \( \mathbb{R} \setminus K \) can be written as \( (- \inf, 1 ) \cap  \)
+<b>Proof:</b> \( \mathbb{R} \setminus K \) can be written as \( ((- \infty, \frac{1}{2} ) \setminus K) \cap (\frac{1}{2}, \infty) \), which is open \( \Rightarrow \) K is closed in \( \mathbb{R}_K \).
 
+\(  \)
 
 Then prove by contradiction: Suppose there exists disjoint open sets U, V containing 0 and K, respectively. 
 
@@ -13,4 +12,4 @@ B must have the form \( (a,b)\setminus K \), otherwise by Archimedean property, 
 
 Then we choose n large enough such that \( \frac{1}{n} \in (a, b) \). For the same reason as 0, there is a basis element of \(\mathbb{R}_K\), B', such that such that \( \frac{1}{n} \in B' \subseteq V\), and B' has the form (c, d).
 
-Therefore \( c < \frac{1}{n} < b \). Then we choose \( z < \frac{1}{n}\) \( c > max \{c, \frac{1}{n+1} \} \). So z belongs to both B and B', which means z belongs to both U and V. \( \Rightarrow\Leftarrow \)
+Therefore \( c < \frac{1}{n} < b \). Then we choose \( z < \frac{1}{n}\) \( c > \text{max} \{c, \frac{1}{n+1} \} \). So z belongs to both B and B', which means z belongs to both U and V. \( \Rightarrow\Leftarrow \)
