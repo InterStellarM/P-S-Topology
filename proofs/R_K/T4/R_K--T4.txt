@@ -1,0 +1,1 @@
+ <a href="/proofs/R_K/T3/R_K--T3.html"> \( \mathbb{R}_l\) is not regular (T3) </a> \( \Rightarrow \mathbb{R}_K \) is not normal (T4).
