@@ -1,0 +1,1 @@
+ By contrapositive of <a href="/theorems/Thm-32-2.html"> Thm 32.2</a>, <a href="/proofs/R_K/T4/R_K--T4.html"> \( \mathbb{R}_K\) is not normal</a> \( \Rightarrow \mathbb{R}_K \) is not metrizable.
