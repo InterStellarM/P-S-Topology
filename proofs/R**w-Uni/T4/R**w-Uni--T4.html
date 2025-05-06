@@ -57,9 +57,7 @@
       fetch("R**w-Uni--T4.txt")
         .then((response) => response.text())
         .then((data) => {
-          const latexContainer = document.getElementById(
-            "R**w-Uni--T4"
-          );
+          const latexContainer = document.getElementById("R**w-Uni--T4");
           const lines = data.split("\n"); // Split by newline
           lines.forEach((line) => {
             if (line.trim()) {
