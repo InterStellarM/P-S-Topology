@@ -1,2 +1,2 @@
 Since <a href="/proofs/R**w-Uni/Metrizable/R**w-Uni--Metrizable.html">it is metrizable</a> ,
-by <a href="/theorems/Thm-32-2.html">theorem 32.2</a>, \( \mathbb{R}^\omega \) is normal.
+by <a href="/theorems/Thm-32-2.html">theorem 32.2</a>, \( \mathbb{R}^\omega \) under uniform topology is normal.
