@@ -1,0 +1,13 @@
+By definition, \( \mathbb{R}_l^2 \) has a basis of the form \( [a,b) \times [c,d) \).
+
+Consider the subspace \( A = \{(x,-x) : x \in \mathbb{R}\} \). It is easy to show that \( A \) is closed in \( \mathbb{R}_l^2 \).
+
+\( \Rightarrow \) \( \mathbb{R}_l^2 \setminus A \) is open.
+
+\(\)
+
+Now consider \( V = \{ V_x = [x, x+1) \times [-x, -x+1) : x \in \mathbb{R} \} \). Then \( \{ \mathbb{R}_l^2 \setminus A \} \cup V \) is an open cover of \( \mathbb{R}_l^2 \).
+
+However, \( V_x \cap A = \{(x,-x)\} \), which means each \( V_x \) intersects \( A \) in at most one point. \( A \) is uncountable \( \Rightarrow \) there is no countable subcover.
+
+\( \Rightarrow \) \( \mathbb{R}_l^2 \) is not Lindelöf.

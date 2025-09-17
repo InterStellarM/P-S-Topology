@@ -8,7 +8,7 @@ d: \mathbb{R} \times \mathbb{R} &\to \mathbb{R} \\
 $$
 
 
-<b>Claim:</b> \(d\) is a <a href="/P-S-Topology/definitions/Metric.html">metric</a>.
+<b>Claim:</b> \(d\) is a <a href="/definitions/Metric.html">metric</a>.
 
 <b>Proof:</b> 
 
@@ -32,7 +32,6 @@ For each \( B_d(x, \epsilon) \), it is equal to the basis element \( (x-\epsilon
 Therefore the topology induced by \(d\) is the standard topology.
 
 \( \Rightarrow \) \(\mathbb{R}\) under standard topology is metrizable.
-
 
 
 
