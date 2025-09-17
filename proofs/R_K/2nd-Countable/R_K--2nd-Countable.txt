@@ -1,0 +1,52 @@
+
+
+Let \( K=\{\tfrac{1}{n} : n\in\mathbb{Z}^+\} \) and define
+
+\( U = \{(q_1,q_2) : q_1,q_2 \in \mathbb{Q}, q_1 < q_2\} \), \(V = \{(q_1,q_2) \setminus K : q_1,q_2 \in \mathbb{Q}, q_1 < q_2\}  \) and
+
+\( \mathcal{B} = U \cup  V \)
+
+\(\)
+
+<b>Blaim:</b> 
+\( \mathcal{B} \) is a countable basis for \( \mathbb{R}_K \).
+
+\(  \)
+
+<b>Proof:</b>
+
+\(1^\circ: \) \( \forall \) \( x\in\mathbb{R} \), pick rationals \( q_1< x < q_2 \). Then \( (q_1,q_2)\in \mathcal{B} \) and contains \( x \).
+
+\(  \)
+
+\(2^\circ: \) Take \( B_1,B_2\in\mathcal{B} \) and \( x\in B_1\cap B_2 \). Let their endpoints be rational and set
+        \( \alpha=\max\{\text{left endpoints of }B_1,B_2\} \), \( \beta=\min\{\text{right endpoints of }B_1,B_2\} \).
+        Then \( \alpha < x < \beta \). Choose rationals \( r,s \) with \( \alpha< r < x < s < \beta \).
+        - If \( B_1 \in U \) and \(B_2 \in U \), then \( (r,s)\in\mathcal{B} \) and \( x \in (r,s)\subseteq B_1\cap B_2 \).
+        - If at least one of \( B_1,B_2 \) is in V, then \( x\notin K \); hence \( (r,s)\setminus K \in \mathcal{B} \) and \( x \in (r,s)\setminus K \subseteq B_1\cap B_2 \).
+
+\( \)
+
+By \( 1^\circ \) and \( 2^\circ \), \(\mathcal{B}\) forms a <a href="/definitions/Basis.html">basis</a>.
+
+\(  \)
+
+\(3^\circ\, (\text{Countability}):\) Define \( f : \mathcal{B} \to \mathbb{Q}^2 \times \{0,1\} \) by
+                                    - if \( C = (q_1,q_2) \in \mathcal{B} \), set \( f(C) = (q_1, q_2, 0) \);
+                                    - if \( C = (q_1,q_2) \setminus K \) and \( (q_1,q_2) \cap K \neq \emptyset \), set \( f(C) = (q_1, q_2, 1) \);
+
+\(  \)
+
+                                    This is well-defined because each set \( C \in \mathcal{C} \) determines unique rational endpoints \( q_1 < q_2 \).
+
+                                    It is injective: if \( f(C_1) = f(C_2) = (q_1,q_2,t) \), then
+                                    - when \( t=0 \), both \( C_i = (q_1,q_2) \);
+                                    - when \( t=1 \), both \( C_i = (q_1,q_2) \setminus K \) (and here \( (q_1,q_2) \cap K \neq \emptyset \) by the rule), so \( C_1 = C_2 \).
+
+                                    Since \( \mathbb{Q} \) is countable, \( \mathbb{Q}^2 \times \{0,1\} \) is a countable product of countable sets so it is countable, and an injective image of \( \mathcal{C} \) inside a countable set implies \( \mathcal{C} \) is countable.
+
+\(  \)
+
+Therefore  \(\mathcal{B}\) is a countable basis.
+
+K-Topology \( \Rightarrow \mathbb{R}_K \)  is second-countable.
