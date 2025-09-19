@@ -4,9 +4,9 @@
 \(  \)
 
 
-\(2^\circ (\text{ Normality }) \): For all disjoined closed \(A, B \subseteq \mathbb{R}_l\), for each \( a \in A \), choose a basis element \( [a, x_a) \) such that \( B \cap [a, x_a) = \emptyset \); 
-                              for each \( b \in B \), choose a basis element \( [b, x_b) \) such that \( A \cap [b, x_b) = \emptyset \).
-                              Let \( U = \bigcup_{a \in A} [a, x_a),  V = \bigcup_{b \in B} [b, x_b) \), so \( A \subseteq U, b \subseteq V \), and \( U \cap V = \emptyset \).
+\(2^\circ (\text{ Normality }) \): For all disjoined closed \(A, B \subseteq \mathbb{R}_l\), for each \( a \in A \), choose a basis element \( [a, x_a) \) such that \( B \cap [a, x_a) = \varnothing \); 
+                              for each \( b \in B \), choose a basis element \( [b, x_b) \) such that \( A \cap [b, x_b) = \varnothing \).
+                              Let \( U = \bigcup_{a \in A} [a, x_a),  V = \bigcup_{b \in B} [b, x_b) \), so \( A \subseteq U, b \subseteq V \), and \( U \cap V = \varnothing \).
 
 
 Therefore, \( \mathbb{R}_l \) is normal.

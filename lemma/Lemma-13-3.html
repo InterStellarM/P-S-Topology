@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lemma 13.3</title>
+    <!-- MathJax -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        line-height: 1.6;
+      }
+      em {
+        font-weight: bold;
+        font-style: normal;
+      }
+      ol.paren {
+        counter-reset: item;
+        padding-left: 0;
+      }
+      ol.paren > li {
+        list-style: none;
+        counter-increment: item;
+        margin: 0.5em 0;
+      }
+      ol.paren > li::before {
+        content: "(" counter(item) ") ";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lemma 13.3</h1>
+    <p>
+      Let \(\mathcal{B}\) and \(\mathcal{B}'\) be
+      <a href="/definitions/Basis.html">bases</a> for the topologies
+      \(\mathcal{T}\) and \(\mathcal{T}'\), respectively, on \(X\). Then the
+      following are equivalent:
+    </p>
+    <ol class="paren">
+      <li>
+        \(\mathcal{T}'\) is
+        <a href="/definitions/Topology-Comparisons.html">finer</a> than
+        \(\mathcal{T}\).
+      </li>
+      <li>
+        For each \(x \in X\) and each basis element \(B \in \mathcal{B}\)
+        containing \(x\), there is a basis element \(B' \in \mathcal{B}'\) such
+        that \(x \in B' \subseteq B\).
+      </li>
+    </ol>
+  </body>
+</html>

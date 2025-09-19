@@ -4,7 +4,7 @@ each \( U_\alpha  \) can be written as the union of basis elements, which have f
 
 Therefore it will suffice to prove every open covering of \({\mathbb{R}_l}\) by basis elements contains a countable subcovering.
 
-Let \( \mathcal{A} = \{ [a_\alpha, b_\alpha) \}_{\alpha \in J} \) be an open covering of \( \mathbb{R}_l \). Let \( C = \bigcup_{\alpha \in J} (a_\alpha, b_\alpha) \), so \( C \) is a subset of \( \mathbb{R} \) under standard topology.
+Let \( \mathcal{A} = \{ [a_\alpha, b_\alpha) \}_{\alpha \in J} \) be an open covering of \( \mathbb{R}_l \). Let \( C = \bigcup_{\alpha \in J} (a_\alpha, b_\alpha) \), so \( C \) is a subseteq of \( \mathbb{R} \) under standard topology.
 
 \(\)
 
@@ -14,7 +14,7 @@ Let \( \mathcal{A} = \{ [a_\alpha, b_\alpha) \}_{\alpha \in J} \) be an open cov
 
 If \( x \in \mathbb{R} \setminus C \), it means that \( x \) belongs to no open intervale \( (a_\alpha, b_\alpha) \), so \( \exists \beta \in J \) such that \( x = a_\beta \). Therefore \( \exists b_\beta \) such that \( (a_\beta, b_\beta) \in C \).
 
-Becasue <a href="/proofs/R/Separable/R--Separable.html">\( \mathbb{Q}\) is a countable dense subset of \( \mathbb{R} \)</a>, \( \exists q_x \in \mathbb{Q} \) such that \( (x, q_x) \subseteq (a_\beta, b_\beta) \in C\) .
+Becasue <a href="/proofs/R/Separable/R--Separable.html">\( \mathbb{Q}\) is a countable dense subseteq of \( \mathbb{R} \)</a>, \( \exists q_x \in \mathbb{Q} \) such that \( (x, q_x) \subseteq (a_\beta, b_\beta) \in C\) .
 
 If \( x < y \) for \( x, y \in  \mathbb{R} \setminus C \), then \( q_x < q_y \) has to be true, otherwise \( x < y < q_y < q_x < b_\beta \), which means \( y \in (x, b_\beta) \in C \Rightarrow\Leftarrow \).
 

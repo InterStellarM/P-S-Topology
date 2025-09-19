@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finer, Coarser, and Comparable Topologies</title>
+    <!-- MathJax -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        line-height: 1.6;
+      }
+      em {
+        font-weight: bold;
+        font-style: normal;
+      }
+      /* Numbered list with parentheses: (1), (2), ... */
+      ol.paren {
+        counter-reset: item;
+        padding-left: 0;
+      }
+      ol.paren > li {
+        list-style: none;
+        counter-increment: item;
+        margin: 0.5em 0;
+      }
+      ol.paren > li::before {
+        content: "(" counter(item) ") ";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Finer, Coarser, and Comparable Topologies</h1>
+    <p>
+      <em>Definition:</em> Suppose that \(\mathcal{T}\) and \(\mathcal{T}'\) are
+      two topologies on a given set \(X\).
+    </p>
+    <ol class="paren">
+      <li>
+        If \(\mathcal{T}' \supseteq \mathcal{T}\), we say that \(\mathcal{T}'\)
+        is <em>finer</em> than \(\mathcal{T}\). If \(\mathcal{T}'\) properly
+        contains \(\mathcal{T}\) (i.e., \(\mathcal{T}' \supsetneq
+        \mathcal{T}\)), we say that \(\mathcal{T}'\) is
+        <em>strictly finer</em> than \(\mathcal{T}\).
+      </li>
+      <li>
+        Equivalently, \(\mathcal{T}\) is <em>coarser</em> than \(\mathcal{T}'\),
+        or <em>strictly coarser</em> in the respective situations.
+      </li>
+      <li>
+        We say that \(\mathcal{T}\) and \(\mathcal{T}'\) are
+        <em>comparable</em> if either \(\mathcal{T}' \supseteq \mathcal{T}\) or
+        \(\mathcal{T} \supseteq \mathcal{T}'\).
+      </li>
+    </ol>
+  </body>
+</html>

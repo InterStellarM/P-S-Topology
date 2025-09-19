@@ -27,6 +27,63 @@
       <a href="/definitions/Basis.html">basis</a>
       \( \mathcal{B}_l = \{ [a,b) : a,b \in \mathbb{R},\ a < b \} \).
     </p>
+    <p>\( \)</p>
+    <h2><b>Comment:</b></h2>
+    <p>
+      For any \(a < b\), the standard-open interval \((a,b)\) is also open in
+      \(\mathbb{R}_l\). 2 ways of proof are shown below:
+    </p>
+
+    <p>\(\)</p>
+
+    <h3><b>1) direct union argument.</b></h3>
+    <p>Choose \( n_0 \in \mathbb{Z} \) such that \( n_0 > \frac{1}{b-a} \).</p>
+    <p>
+      <b>Claim: </b> \( (a,b) = \bigcup_{n=1}^{\infty} [\,a+\tfrac{1}{n},\ b\,)
+      \)
+    </p>
+    <p>
+      <b>Proof of \(\subseteq\):</b> If \(x \in [\,a+\tfrac{1}{n},\ b\,)\) for
+      some \(n\), then \(a < x < b\).
+    </p>
+    <p>
+      <b>Proof of \(\supseteq\):</b> If \(x \in (a,b)\), let \(\delta = x-a >
+      0\). By the Archimedean property, pick \(n\) with \(1/n < \delta\)
+      (equivalently \(n > 1/(x-a)\)). Then \(a+\tfrac{1}{n} < x < b\), so \(x
+      \in [\,a+\tfrac{1}{n},\ b\,)\).
+    </p>
+    <p>\(\)</p>
+    <p>
+      Each set \([\,a+\tfrac{1}{n},\ b\,)\) is a basis element in
+      \(\mathbb{R}_l\), so their union is open by the
+      <a href="/definitions/Topology.html">definition of topology</a>. Therefore
+      \((a,b)\) is open in \(\mathbb{R}_l\).
+    </p>
+
+    <p>\(\)</p>
+
+    <h3><b>2) pointwise neighborhood argument.</b></h3>
+    <p>
+      \( \forall \) \(x\in(a,b)\). Let \(\delta=\min\{(b-x)/2,(x-a)/2\}>0\).
+    </p>
+
+    <p>
+      Then the basic \(\mathbb{R}_l\)-neighborhood \([x, x+\delta)\) satisfies
+      \([x,x+\delta)\subseteq (a,b)\).
+    </p>
+
+    <p>
+      Since every point of \((a,b)\) has such a basic neighborhood inside
+      \((a,b)\), the set \((a,b)\) is open in \(\mathbb{R}_l\).
+    </p>
+
+    <p>
+      (As a side note: this shows every standard-open interval is
+      \(\mathbb{R}_l\)-open, so the lower limit topology is
+      <a href="/definitions/Topology-Comparisons.html">strictly finer</a> than
+      the usual topology by
+      <a href="/lemma/Lemma-13-3.html">Lemma&nbsp;13.3</a>.)
+    </p>
     <!-- <p>And here is an example of block LaTeX:</p>
     <div>$$ \int_{a}^{b} x^2 \, dx = \frac{b^3}{3} - \frac{a^3}{3} $$</div> -->
   </body>

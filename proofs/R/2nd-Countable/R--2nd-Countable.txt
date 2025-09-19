@@ -20,7 +20,7 @@ By \( 1^\circ \) and \( 2^\circ \), \(\mathcal{B}\) forms a <a href="/definition
 
 \(3^\circ (\text{ Countability }): \) For each interval \( (a,b) \in \mathcal{B} \), we can treat it as a point \( (a,b) \in \mathbb{Q} \times \mathbb{Q} \). 
                                     \(\mathbb{Q} \times \mathbb{Q}\) is countbable because finite product of countable spaces is countable.
-                                    Then \( \mathcal{B} \) is a subset of \(\mathbb{Q} \times \mathbb{Q}\) and a subset of countable set is countable, so \( \mathcal{B} \) is countable.
+                                    Then \( \mathcal{B} \) is a subseteq of \(\mathbb{Q} \times \mathbb{Q}\) and a subseteq of countable set is countable, so \( \mathcal{B} \) is countable.
 
 
 Therefore  \(\mathcal{B}\) is a countable basis.
