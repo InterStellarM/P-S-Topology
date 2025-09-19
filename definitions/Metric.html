@@ -21,7 +21,20 @@
   </head>
   <body>
     <h1>Metric</h1>
-    <p><em>Definition: </em> Metric</p>
+    <p><em>Definition:</em> A <em>metric</em> on a set \(X\) is a function</p>
+    <div>$$ d : X \times X \to \mathbb{R}. $$</div>
+    <p>having the following properties:</p>
+    <ol>
+      <li>
+        \( d(x,y) \ge 0 \) for all \(x,y \in X\); equality holds iff \(x = y\),
+        i.e., \( d(x,y) = 0 \iff x=y \).
+      </li>
+      <li>\( d(x,y) = d(y,x) \) for all \(x,y \in X\).</li>
+      <li>
+        (Triangle inequality) \( d(x,y) + d(y,z) \ge d(x,z) \) for all \(x,y,z
+        \in X\).
+      </li>
+    </ol>
     <!-- <p>And here is an example of block LaTeX:</p>
     <div>$$ \int_{a}^{b} x^2 \, dx = \frac{b^3}{3} - \frac{a^3}{3} $$</div> -->
   </body>
