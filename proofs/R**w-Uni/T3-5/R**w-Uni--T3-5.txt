@@ -1,1 +1,1 @@
-<a href="/proofs/R**w-Uni/T4/R**w-Uni--T4.html">It is normal(T4).</a> \(\Rightarrow\) It is completely regular(T3.5).
+<a href="/proofs/R**w-Uni/T4/R**w-Uni--T4.html">It is normal (T4).</a> \(\Rightarrow\) It is completely regular(T3.5).
