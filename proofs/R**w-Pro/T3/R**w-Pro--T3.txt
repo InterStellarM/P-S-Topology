@@ -1,0 +1,1 @@
+<a href="/proofs/R**w-Pro/T4/R**w-Pro--T4.html">\( \mathbb{R}^\omega \) with the product topology is normal (T4)</a> \(\Rightarrow\) it is <a href="/definitions/T3.html">regular (T3)</a>.
