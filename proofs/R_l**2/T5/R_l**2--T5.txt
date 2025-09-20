@@ -1,0 +1,1 @@
+<a href="/proofs/R_l**2/T4/R_l**2--T4.html">\( \mathbb{R}_l^2 \) is not normal (T4)</a> \(\Rightarrow \mathbb{R}_l^2\) is not completely normal (T5).
