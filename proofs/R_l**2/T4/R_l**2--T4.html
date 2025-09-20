@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R_l**2--T4</title>
+    <!-- Include MathJax -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        line-height: 1.6;
+      }
+      em {
+        color: red;
+        font-style: normal;
+        font-weight: bold;
+      }
+      .line-numbers {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border: 1px solid #ddd;
+        overflow-x: auto;
+        line-height: 2;
+        counter-reset: line;
+      }
+      .line-numbers > div {
+        display: block;
+        counter-increment: line;
+        position: relative;
+        padding-left: 2em; /* Adjust padding */
+        white-space: pre-wrap;
+      }
+      .line-numbers > div:before {
+        content: counter(line);
+        position: absolute;
+        left: -2.5em; /* Adjust left positioning to move line numbers further left */
+        color: #888;
+        background: #f4f4f4;
+        padding: 0 0.5em;
+        text-align: right;
+        width: 2em;
+        border-right: 1px solid #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sorgenfrey plane \( \mathbb{R}_l^2 \) is <em>not</em> Normal (T4)</h1>
+    <p>\( \S 31 \) example 3 in Munkres.</p>
+    <h2><b>Proof:</b></h2>
+    <div class="line-numbers" id="R_l**2--T4">
+      <!-- Content from the LaTeX file will be inserted here -->
+    </div>
+
+    <script>
+      // Fetch LaTeX content from an external file
+      fetch("R_l**2--T4.txt")
+        .then((response) => response.text())
+        .then((data) => {
+          const latexContainer = document.getElementById("R_l**2--T4");
+          const lines = data.split("\n");
+          lines.forEach((line) => {
+            if (line.trim()) {
+              const div = document.createElement("div");
+              div.innerHTML = line;
+              latexContainer.appendChild(div);
+            }
+          });
+          MathJax.typesetPromise();
+        })
+        .catch((error) => console.error("Error fetching LaTeX content:", error));
+    </script>
+  </body>
+</html>
+

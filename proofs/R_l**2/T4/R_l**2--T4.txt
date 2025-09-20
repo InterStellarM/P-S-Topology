@@ -1,0 +1,27 @@
+Assume for contradiction that \( \mathbb{R}_l^2 \) is <a href="/definitions/T4.html">normal (T4)</a>.
+
+Let \( L = \{(x,-x) : x \in \mathbb{R}\} \subset \mathbb{R}_l^2 \). Then \(L\) is closed in \(\mathbb{R}_l^2\), and with the subspace topology it is discrete.
+
+By normality, for every proper subset \(A \subset L\) there exist disjoint open sets \(U_A, V_A\) of \(\mathbb{R}_l^2\) such that \(A \subset U_A\) and \(L\setminus A \subset V_A\).
+
+Let \( D = \{(q,-q) : q \in \mathbb{Q}\} \subset L \). Then \(D\) is dense in \(\mathbb{R}_l^2\) (hence also dense in \(L\) with the subspace topology), where \(\mathbb{Q}\) denotes the rationals.
+
+Define \(\theta : \mathcal{P}(L) \to \mathcal{P}(D)\) by
+1) if \(\varnothing \subsetneq A \subsetneq L\), set \(\theta(A) = D \cap U_A\);
+2) \(\theta(\varnothing)=\varnothing\);
+3) \(\theta(L)=D\).
+
+Claim: \(\theta\) is injective. Indeed, let \(A\subsetneq L\) be nonempty. Since \(U_A\) is open and \(D\) is dense, \(D\cap U_A\neq\varnothing\); and because \(D\cap V_A\neq\varnothing\), we have \(\theta(A)\neq D\). If \(B\neq A\) is another proper nonempty subset, choose \(x\in(A\setminus B)\cup(B\setminus A)\); say \(x\in A\setminus B\). Then \(x\in U_A\cap V_B\). As \(V_B\) is open and nonempty, it contains some point of \(D\), which lies in \(U_A\) but not in \(U_B\). Hence \(D\cap U_A \neq D\cap U_B\), i.e. \(\theta(A)\neq\theta(B)\).
+
+Next we produce an injective map \(\psi : \mathcal{P}(D) \to L\). Since \(D\) is countably infinite and \(L\) has the cardinality of \(\mathbb{R}\), it suffices to define an injective map \(\psi\) from \(\mathcal{P}(\mathbb{Z}_+)\) to \(\mathbb{R}\): for a subset \(S\subseteq \mathbb{Z}_+\), let
+$$
+\psi(S) = \sum_{i=1}^{\infty} \frac{a_i}{10^i}, \quad \text{where } a_i = \begin{cases}0,& i\in S,\\ 1,& i\notin S.\end{cases}
+$$
+This map is injective (distinct subsets yield distinct decimal expansions). After fixing an enumeration of \(D\) by \(\mathbb{Z}_+\), we obtain an injective \(\psi : \mathcal{P}(D) \to L\).
+
+Therefore the composite
+$$ \mathcal{P}(L) \xrightarrow{\ \theta\ } \mathcal{P}(D) \xrightarrow{\ \psi\ } L $$
+is injective. But by <a href="/theorems/Thm-7-8.html">Theorem 7.8</a> there is no injective map from \(\mathcal{P}(L)\) into \(L\). This contradiction shows our assumption was false.
+
+Hence \( \mathbb{R}_l^2 \) is <em>not</em> normal (T4).
+
