@@ -1,0 +1,9 @@
+1. By <a href="/theorems/Thm-32-2.html">Theorem&nbsp;32.2</a>, every metrizable space is <a href="/definitions/T4.html">normal (T4)</a>.
+
+2. Because <a href="/proofs/general/Metrizable/General--Subspace-Metrizable.html">every subspace of a metrizable space is metrizable</a>, applying <a href="/theorems/Thm-32-2.html">Theorem&nbsp;32.2</a> to each subspace shows it is <a href="/definitions/T4.html">normal</a>.
+
+    \( \Rightarrow \) every subspace of a metrizable space is normal (T4).
+
+\(\)
+
+\( \Rightarrow \) A metrizable space is completely normal (T5)
