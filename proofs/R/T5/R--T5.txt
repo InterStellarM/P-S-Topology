@@ -1,0 +1,5 @@
+Because <a href="/proofs/R/Metrizable/R--Metrizable.html">\( \mathbb{R} \) is metrizable</a>,
+
+and <a href="/theorems/Exercise-32-7-d.html">any metrizable space is completely normal (T5)</a>.
+
+Therefore \( \mathbb{R} \) is completely normal (T5).
