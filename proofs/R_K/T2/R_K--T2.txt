@@ -1,0 +1,5 @@
+\( \forall x, y \in \mathbb{R}_K, x < y, \) choose \( U = (x-1, \tfrac{x+y}{2}) \), \( V = (\tfrac{x+y}{2}, y+1). \)
+
+\( U, V \) are disjoint open sets in \( \mathbb{R}_K \), and \( x \in U, y \in V \).
+
+\( \Rightarrow \) by <a href="/definitions/T2.html">definition</a>, \( \mathbb{R}_K \) is Hausdorff (T2).
