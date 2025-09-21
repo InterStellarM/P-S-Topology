@@ -1,2 +1,2 @@
 Because <a href="/proofs/R_K/2nd-Countable/R_K--2nd-Countable.html">\( \mathbb{R}_K \) is second-countable</a>, \( \mathbb{R}_K \) is first-countable. 
-(This is stated in Munkres after definition of second-countable)
+(This is stated in Munkres \( \S \) 30 after definition of second-countable)
