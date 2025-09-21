@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R**w-Pro--Lindelof</title>
+    <!-- Include MathJax -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        line-height: 1.6;
+      }
+      em {
+        color: red;
+        font-style: normal;
+        font-weight: bold;
+      }
+      .line-numbers {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border: 1px solid #ddd;
+        overflow-x: auto;
+        line-height: 2;
+        counter-reset: line;
+      }
+      .line-numbers > div {
+        display: block;
+        counter-increment: line;
+        position: relative;
+        padding-left: 3em;
+        white-space: pre-wrap;
+      }
+      .line-numbers > div:before {
+        content: counter(line);
+        position: absolute;
+        left: 0;
+        color: #888;
+        background: #f4f4f4;
+        padding: 0 0.5em;
+        text-align: right;
+        width: 1em;
+        border-right: 1px solid #ddd;
+      }
+      .MathJax_Display {
+        margin-top: 0.3em !important;
+        margin-bottom: 0.3em !important;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>\( \mathbb{R}^\omega \) with product topology is Lindelöf</h1>
+    <h2><b>Proof:</b></h2>
+    <div class="line-numbers" id="R**w-Pro--Lindelof"></div>
+    <p></p>
+
+    <script>
+      fetch("R**w-Pro--Lindelof.txt")
+        .then((response) => response.text())
+        .then((data) => {
+          const latexContainer = document.getElementById(
+            "R**w-Pro--Lindelof"
+          );
+
+          const blocks = data.split(/\n\s*\n/);
+
+          blocks.forEach((block) => {
+            const trimmed = block.trim();
+            if (!trimmed) {
+              return;
+            }
+            const div = document.createElement("div");
+            div.innerHTML = block.replace(/\n/g, "<br>");
+            latexContainer.appendChild(div);
+          });
+
+          MathJax.typesetPromise();
+        })
+        .catch((error) =>
+          console.error("Error fetching LaTeX content:", error)
+        );
+    </script>
+  </body>
+</html>
