@@ -24,4 +24,3 @@ $$ \mathcal{P}(L) \xrightarrow{\ \theta\ } \mathcal{P}(D) \xrightarrow{\ \psi\ }
 is injective. But by <a href="/theorems/Thm-7-8.html">Theorem 7.8</a> there is no injective map from \(\mathcal{P}(L)\) into \(L\). This contradiction shows our assumption was false.
 
 Hence \( \mathbb{R}_l^2 \) is <em>not</em> normal (T4).
-

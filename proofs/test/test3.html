@@ -29,19 +29,24 @@
         display: block;
         counter-increment: line;
         position: relative;
-        padding-left: 2em; /* Adjust padding */
+        padding-left: 3em; /* Increased padding for line numbers */
         white-space: pre-wrap;
       }
       .line-numbers > div:before {
-        content: counter(line);
+        content: counter(line); /* Automatically increment line numbers */
         position: absolute;
-        left: -2.5em; /* Adjust left positioning to move line numbers further left */
+        left: 0; /* Align line numbers to the left */
         color: #888;
         background: #f4f4f4;
         padding: 0 0.5em;
         text-align: right;
-        width: 2em;
+        width: 1em; /* Increased width for multi-digit line numbers */
         border-right: 1px solid #ddd;
+      }
+      /* Reduce line spacing for equations */
+      .MathJax_Display {
+        margin-top: 0.3em !important; /* Reduced top margin */
+        margin-bottom: 0.3em !important; /* Reduced bottom margin */
       }
     </style>
   </head>
@@ -58,10 +63,11 @@
     </div>
 
     <script>
-      fetch("latex-test.txt")
+      // Fetch LaTeX content from an external file
+      fetch("test3.txt")
         .then((response) => response.text())
         .then((data) => {
-          const latexContainer = document.getElementById("latex-test");
+          const latexContainer = document.getElementById("test3");
 
           // Split file content by two consecutive line breaks to separate blocks
           const blocks = data.split(/\n\s*\n/);
