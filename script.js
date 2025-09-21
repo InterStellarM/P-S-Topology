@@ -15,7 +15,7 @@ const gridData = {
         //                                              R        R_l      R_l^2    R_K      w-pro    w-uni    w-box     J-pro    J-box    I_0      I_0^2
         { label: "1st countable",               cells: ["green", "green", "green", "green", "green", "green", "red",    "gray", "gray",   "gray",  "green"] },
         { label: "2nd countable",               cells: ["green", "red",   "red",   "green", "green", "red",   "red",    "gray", "gray",   "gray",  "red"] },
-        { label: "Separable",                   cells: ["green", "green", "green", "green", "green", "red",   "red",    "gray", "gray",   "gray",  "red"] },
+        { label: "Separable",                   cells: ["green", "gray", "gray", "green", "green", "red",   "red",    "gray", "gray",   "gray",  "red"] },
         { label: "Lindelöf",                    cells: ["green", "green", "red",   "green", "green", "red",   "red",    "gray", "gray",   "gray",  "green"] },
         { label: "Hausdorff (T2)",              cells: ["green", "green", "green", "green", "green", "green", "green",  "gray", "green",  "gray",  "gray"] },
         { label: "Regular (T3)",                cells: ["green", "green", "green", "red",   "green", "green", "green",  "gray", "green",  "gray",  "gray"] },
