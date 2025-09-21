@@ -10,11 +10,11 @@ Because <a href="/proofs/R_l/T4/R_l--T4.html">\( \mathbb{R}_l \) is normal (T4)<
 
 If \(\overline{A} \cap \overline{B} \neq \varnothing\). 
 
-Proved in <a href="/theorems/Exercise-32-6.html">Exercise&nbsp;32.6</a>, \( A \cap (\overline{A} \cap \overline{B}) = \varnothing \), \( B \cap (\overline{A} \cap \overline{B}) = \varnothing \).
+Proved in <a href="/theorems/Exercise-32-6.html">Exercise&nbsp;32.6 claim 2</a>, \( A \cap (\overline{A} \cap \overline{B}) = \varnothing \), \( B \cap (\overline{A} \cap \overline{B}) = \varnothing \).
 
 \( \Rightarrow A, B \) can only have form \( \{ (a, b) \) or \( [a, b) \} \) and \( \{ (b, c) \) or \( (b, c] \} \) respectively, where \( a < b < c \)
 
-So (U = [a,b)\) and \(V = [b,c)\) are 2 disjoint open sets such that \(A \subseteq U\) and \(B \subseteq V\).
+So \(U = [a-1,b)\) and \(V = [b,c+1)\) are 2 disjoint open sets such that \(A \subseteq U\) and \(B \subseteq V\).
 
 \(\)
 

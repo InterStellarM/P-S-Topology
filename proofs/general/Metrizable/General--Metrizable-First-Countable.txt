@@ -1,0 +1,21 @@
+Let \((X, d)\) be a <a href="/definitions/Metric.html">metric space</a> whose induced topology makes \(X\) <a href="/definitions/Metrizable.html">metrizable</a>, and fix a point \(x \in X\).
+
+Consider the countable family of open \(d\)-balls
+
+$$
+\mathcal{N}(x) = \bigl\{ B_d(x, 1/n) : n \in \mathbb{N},\ n \ge 1 \bigr\}.
+$$
+
+Each member of \(\mathcal{N}(x)\) is open in \(X\).
+
+We claim \(\mathcal{N}(x)\) is a neighborhood basis at \(x\). Let \(U\) be an open set with \(x \in U\). Because \(U\) is open in the metric topology, there exists \(r > 0\) with the ball \(B_d(x,r) \subseteq U\). 
+
+Choose \(n\) large enough that \(1/n < r\). Then
+
+$$
+B_d(x, 1/n) \subseteq B_d(x, r) \subseteq U,
+$$
+
+so some element of \(\mathcal{N}(x)\) lies inside \(U\).
+
+Thus every point of \(X\) admits a countable neighborhood basis, and therefore \(X\) is <a href="/definitions/1st-Countable.html">first countable</a>.
