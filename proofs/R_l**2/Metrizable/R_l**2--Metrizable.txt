@@ -1,0 +1,1 @@
+ By contrapositive of <a href="/theorems/Thm-32-2.html"> Thm 32.2</a>, <a href="/proofs/R_l**2/T4/R_l**2--T4.html"> \( \mathbb{R}_l^2\) is not normal</a> \( \Rightarrow \mathbb{R}_l^2 \) is not metrizable.
