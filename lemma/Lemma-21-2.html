@@ -15,6 +15,47 @@
       em {
         font-weight: bold;
       }
+      .lettered {
+        list-style: none;
+        padding-left: 0;
+      }
+      .lettered li {
+        margin-bottom: 0.75em;
+      }
+      .lettered li .label {
+        font-weight: bold;
+        margin-right: 0.4em;
+      }
+      .line-numbers {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border: 1px solid #ddd;
+        overflow-x: auto;
+        line-height: 2;
+        counter-reset: line;
+      }
+      .line-numbers > div {
+        display: block;
+        counter-increment: line;
+        position: relative;
+        padding-left: 3em;
+        white-space: pre-wrap;
+      }
+      .line-numbers > div:before {
+        content: counter(line);
+        position: absolute;
+        left: 0;
+        color: #888;
+        background: #f4f4f4;
+        padding: 0 0.5em;
+        text-align: right;
+        width: 1em;
+        border-right: 1px solid #ddd;
+      }
+      .MathJax_Display {
+        margin-top: 0.3em !important;
+        margin-bottom: 0.3em !important;
+      }
     </style>
   </head>
   <body>
@@ -22,14 +63,48 @@
     <p>
       Let \(X\) be a topological space and let \(A \subseteq X\).
     </p>
-    <ol type="a" style="list-style-type: lower-alpha;">
-      <li style="list-style-type: none;">(a)
-        If there is a sequence of points of \(A\) converging to \(x\), then
-        \(x \in \overline{A}\).
+    <ol class="lettered">
+      <li>
+        <span class="label">(a)</span>If there is a sequence of points of
+        \(A\) converging to \(x\), then \(x \in \overline{A}\).
       </li>
-      <li style="list-style-type: none;">(b)
-        Conversely, if \(X\) is <a href="/P-S-Topology/definitions/Metrizable.html">metrizable</a> and \(x \in \overline{A}\), then there exists a sequence of points of \(A\) converging to \(x\).
+      <li>
+        <span class="label">(b)</span>Conversely, if \(X\) is
+        <a href="/P-S-Topology/definitions/Metrizable.html">metrizable</a> and
+        \(x \in \overline{A}\), then there exists a sequence of points of
+        \(A\) converging to \(x\).
       </li>
     </ol>
+    <h2><b>Proof.</b></h2>
+    <div class="line-numbers" id="Lemma-21-2"></div>
+    <p></p>
+
+    <script>
+      // Fetch LaTeX content from an external file
+      fetch("Lemma-21-2.txt")
+        .then((response) => response.text())
+        .then((data) => {
+          const latexContainer = document.getElementById("Lemma-21-2");
+
+          const blocks = data.split(/\n\s*\n/);
+
+          blocks.forEach((block) => {
+            const div = document.createElement("div");
+
+            if (block.trim().startsWith("$$") && block.trim().endsWith("$$")) {
+              div.innerHTML = block.trim();
+            } else {
+              div.innerHTML = block.replace(/\n/g, "<br>");
+            }
+
+            latexContainer.appendChild(div);
+          });
+
+          MathJax.typesetPromise();
+        })
+        .catch((error) =>
+          console.error("Error fetching LaTeX content:", error)
+        );
+    </script>
   </body>
 </html>

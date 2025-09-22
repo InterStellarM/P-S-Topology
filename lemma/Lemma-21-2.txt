@@ -1,0 +1,9 @@
+(a) Suppose that \(x_n \to x\), where \(x_n \in A\). Then every neighborhood \(U\) of \(x\) contains a point of \(A\), so \(x \in \overline{A}\) by <a href="/P-S-Topology/theorems/Thm-17-5.html">Theorem 17.5</a>. 
+
+\(\)
+
+(b) Suppose that \(X\) is <a href="/P-S-Topology/definitions/Metrizable.html">metrizable</a> and \(x \in \overline{A}\). 
+
+Let \(d\) be a metric for the topology of \(X\). For each positive integer \(n\), take the neighborhood \(B_d(x, 1/n)\) of radius \(1/n\) of \(x\), and choose \(x_n\) to be a point of its intersection with \(A\). 
+
+We assert that the sequence \(x_n\) converges to \(x\): Any open set \(U\) containing \(x\) contains an \(\varepsilon\)-ball \(B_d(x, \varepsilon)\) centered at \(x\); if we choose \(N\) so that \(1/N < \varepsilon\), then \(U\) contains \(x_i\) for all \(i \ge N\).
