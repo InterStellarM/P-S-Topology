@@ -60,24 +60,37 @@
   </head>
   <body>
     <h1>Lemma 21.2 (Sequence Lemma)</h1>
-    <p>
-      Let \(X\) be a topological space and let \(A \subseteq X\).
-    </p>
+    <p>Let \(X\) be a topological space and let \(A \subseteq X\).</p>
     <ol class="lettered">
       <li>
-        <span class="label">(a)</span>If there is a sequence of points of
-        \(A\) converging to \(x\), then \(x \in \overline{A}\).
+        <span class="label">(a)</span>If there is a sequence of points of \(A\)
+        converging to \(x\), then \(x \in \overline{A}\).
       </li>
       <li>
         <span class="label">(b)</span>Conversely, if \(X\) is
         <a href="/P-S-Topology/definitions/Metrizable.html">metrizable</a> and
-        \(x \in \overline{A}\), then there exists a sequence of points of
-        \(A\) converging to \(x\).
+        \(x \in \overline{A}\), then there exists a sequence of points of \(A\)
+        converging to \(x\).
       </li>
     </ol>
     <h2><b>Proof.</b></h2>
     <div class="line-numbers" id="Lemma-21-2"></div>
     <p></p>
+
+    <h2><b>Comment:</b></h2>
+    <p>
+      For (b), the only thing used from metric is a countable neighborhood base
+      at \(x\): the balls \( B(x, \frac{1}{n}) \).
+    </p>
+    <p>
+      Therefore exactly the same argument works in any
+      <a href="/P-S-Topology/definitions/1st-Countable.html">first-countable</a>
+      space:
+    </p>
+    <p>
+      If \(X\) is first-countable and \( x \in \bar{A} \), then \( \exists \) a
+      sequence \( (x_n) \subseteq A \) with \(x_n \to x\).
+    </p>
 
     <script>
       // Fetch LaTeX content from an external file
