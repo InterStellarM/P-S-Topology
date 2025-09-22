@@ -1,1 +1,1 @@
-<em>Proof stub:</em> A detailed argument showing that \(\mathbb{R}^\omega\) with the <a href="/definitions/R**w-Pro.html">product topology</a> is <a href="/definitions/Metrizable.html">metrizable</a> will be added here soon.
+By <a href="/theorems/Thm-20-3.html">Theorem&nbsp;20.3</a>, \( \mathbb{R}^\omega \) with the product topology is <a href="/definitions/Metrizable.html">metrizable</a>.
