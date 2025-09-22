@@ -1,0 +1,5 @@
+Because <a href="/proofs/R_l**2/Lindelof/R_l**2--Lindelof.html">\( \mathbb{R}_l^2 \) is not Lindelöf</a>, 
+
+by the contrapositive of <a href="/theorems/Thm-30-3.html">Theorem&nbsp;30.3(a)</a> 
+
+\( \mathbb{R}_l^2 \) cannot be <a href="/definitions/2nd-Countable.html">second-countable</a>.
