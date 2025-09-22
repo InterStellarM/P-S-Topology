@@ -6,7 +6,7 @@
 
 Then prove by contradiction: Suppose there exists disjoint open sets U, V containing 0 and K, respectively. 
 
-By <a href="/definitions/Basis.html">definition of basis</a>, there is a <a href="/definitions/R_K.html">basis element of \(\mathbb{R}_K\)</a>, B, such that \(0 \in B \subseteq U\).
+By <a href="/P-S-Topology/definitions/Basis.html">definition of basis</a>, there is a <a href="/P-S-Topology/definitions/R_K.html">basis element of \(\mathbb{R}_K\)</a>, B, such that \(0 \in B \subseteq U\).
 
 B must have the form \( (a,b)\setminus K \), otherwise by Archimedean property, \( \exists \) N large enough such that \( \frac{1}{N} < b \Rightarrow \frac{1}{N} \in (a, b)\) which means U intersects with K.
 

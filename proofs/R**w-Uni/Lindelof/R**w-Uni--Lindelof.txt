@@ -1,3 +1,3 @@
-Because <a href="/proofs/R**w-Uni/Metrizable/R**w-Uni--Metrizable.html">\( \mathbb{R}^\omega \) with the uniform topology is metrizable</a> and <a href="/proofs/R**w-Uni/2nd-Countable/R**w-Uni--2nd-Countable.html">it is not second-countable</a>, 
+Because <a href="/P-S-Topology/proofs/R**w-Uni/Metrizable/R**w-Uni--Metrizable.html">\( \mathbb{R}^\omega \) with the uniform topology is metrizable</a> and <a href="/P-S-Topology/proofs/R**w-Uni/2nd-Countable/R**w-Uni--2nd-Countable.html">it is not second-countable</a>, 
 
-the contrapositive of <a href="/theorems/Exercise-30-5.html">Exercise&nbsp;30.5(b)</a> implies that \( \mathbb{R}^\omega \) with the uniform topology cannot be <a href="/definitions/Lindelof.html">Lindelöf</a>.
+the contrapositive of <a href="/P-S-Topology/theorems/Exercise-30-5.html">Exercise&nbsp;30.5(b)</a> implies that \( \mathbb{R}^\omega \) with the uniform topology cannot be <a href="/P-S-Topology/definitions/Lindelof.html">Lindelöf</a>.

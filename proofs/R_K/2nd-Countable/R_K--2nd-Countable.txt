@@ -27,7 +27,7 @@ Let \( K=\{\tfrac{1}{n} : n\in\mathbb{Z}^+\} \) and define
 
 \( \)
 
-By \( 1^\circ \) and \( 2^\circ \), \(\mathcal{B}\) forms a <a href="/definitions/Basis.html">basis</a>.
+By \( 1^\circ \) and \( 2^\circ \), \(\mathcal{B}\) forms a <a href="/P-S-Topology/definitions/Basis.html">basis</a>.
 
 \(  \)
 

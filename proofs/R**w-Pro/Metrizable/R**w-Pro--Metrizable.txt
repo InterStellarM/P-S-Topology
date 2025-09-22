@@ -1,1 +1,1 @@
-By <a href="/theorems/Thm-20-3.html">Theorem&nbsp;20.3</a>, \( \mathbb{R}^\omega \) with the product topology is <a href="/definitions/Metrizable.html">metrizable</a>.
+By <a href="/P-S-Topology/theorems/Thm-20-3.html">Theorem&nbsp;20.3</a>, \( \mathbb{R}^\omega \) with the product topology is <a href="/P-S-Topology/definitions/Metrizable.html">metrizable</a>.

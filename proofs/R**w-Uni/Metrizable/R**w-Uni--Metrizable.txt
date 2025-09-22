@@ -1,1 +1,1 @@
-By <a href="/definitions/R**w-Uni.html">definition</a>, \( \mathbb{R}^\omega \) under uniform topology is metrizable trivially.
+By <a href="/P-S-Topology/definitions/R**w-Uni.html">definition</a>, \( \mathbb{R}^\omega \) under uniform topology is metrizable trivially.

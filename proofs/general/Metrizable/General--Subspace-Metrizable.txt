@@ -1,6 +1,6 @@
-Let \((X, \mathcal{T})\) be a <a href="/definitions/Metrizable.html">metrizable space</a>; fix a <a href="/definitions/Metric.html">metric</a> \(d\) on \(X\) whose open-ball topology is \(\mathcal{T}\).
+Let \((X, \mathcal{T})\) be a <a href="/P-S-Topology/definitions/Metrizable.html">metrizable space</a>; fix a <a href="/P-S-Topology/definitions/Metric.html">metric</a> \(d\) on \(X\) whose open-ball topology is \(\mathcal{T}\).
 
-Let \(A \subseteq X\) equipped with the <a href="/definitions/Subspace-Topology.html">subspace topology</a> \(\mathcal{T}|_A = \{U \cap A : U \in \mathcal{T}\}\).
+Let \(A \subseteq X\) equipped with the <a href="/P-S-Topology/definitions/Subspace-Topology.html">subspace topology</a> \(\mathcal{T}|_A = \{U \cap A : U \in \mathcal{T}\}\).
 
 Define the restricted metric
 
@@ -28,4 +28,4 @@ $$
 
 This shows that \(U \cap A\) is \(d_A\)-open, so \(\mathcal{T}|_A \subseteq \mathcal{T}(d_A)\).
 
-Thus \(\mathcal{T}|_A = \mathcal{T}(d_A)\), and \((A, \mathcal{T}|_A)\) is <a href="/definitions/Metrizable.html">metrizable</a>. In particular, <a href="/definitions/Metrizable.html">metrizability</a> is hereditary to subspaces.
+Thus \(\mathcal{T}|_A = \mathcal{T}(d_A)\), and \((A, \mathcal{T}|_A)\) is <a href="/P-S-Topology/definitions/Metrizable.html">metrizable</a>. In particular, <a href="/P-S-Topology/definitions/Metrizable.html">metrizability</a> is hereditary to subspaces.

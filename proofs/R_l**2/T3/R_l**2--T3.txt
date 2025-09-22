@@ -1,4 +1,4 @@
-Because <a href="/proofs/R_l/T3/R_l--T3.html">\( \mathbb{R}_l \) is regular (T3)</a>,
-by <a href="/theorems/Thm-31-2.html">Theorem 31.2(b)</a>,
+Because <a href="/P-S-Topology/proofs/R_l/T3/R_l--T3.html">\( \mathbb{R}_l \) is regular (T3)</a>,
+by <a href="/P-S-Topology/theorems/Thm-31-2.html">Theorem 31.2(b)</a>,
 \( \mathbb{R}_l^2 \) is regular (T3).
 

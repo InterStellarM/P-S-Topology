@@ -1,4 +1,4 @@
-Let \((X, d)\) be a <a href="/definitions/Metric.html">metric space</a> whose induced topology makes \(X\) <a href="/definitions/Metrizable.html">metrizable</a>, and fix a point \(x \in X\).
+Let \((X, d)\) be a <a href="/P-S-Topology/definitions/Metric.html">metric space</a> whose induced topology makes \(X\) <a href="/P-S-Topology/definitions/Metrizable.html">metrizable</a>, and fix a point \(x \in X\).
 
 Consider the countable family of open \(d\)-balls
 
@@ -18,4 +18,4 @@ $$
 
 so some element of \(\mathcal{N}(x)\) lies inside \(U\).
 
-Thus every point of \(X\) admits a countable neighborhood basis, and therefore \(X\) is <a href="/definitions/1st-Countable.html">first countable</a>.
+Thus every point of \(X\) admits a countable neighborhood basis, and therefore \(X\) is <a href="/P-S-Topology/definitions/1st-Countable.html">first countable</a>.

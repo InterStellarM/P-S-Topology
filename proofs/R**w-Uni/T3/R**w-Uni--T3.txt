@@ -1,1 +1,1 @@
-<a href="/proofs/R**w-Uni/T4/R**w-Uni--T4.html">\( \mathbb{R}^\omega \) under uniform topology is normal (T4).</a> \(\Rightarrow\) It is regular (T3).
+<a href="/P-S-Topology/proofs/R**w-Uni/T4/R**w-Uni--T4.html">\( \mathbb{R}^\omega \) under uniform topology is normal (T4).</a> \(\Rightarrow\) It is regular (T3).

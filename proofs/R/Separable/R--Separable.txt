@@ -1,3 +1,3 @@
-Because <a href="/proofs/R/2nd-Countable/R--2nd-Countable.html">\( \mathbb{R} \) is second-countable</a>,
-by <a href="/theorems/Thm-30-3.html">Theorem 30.3(b)</a>,
+Because <a href="/P-S-Topology/proofs/R/2nd-Countable/R--2nd-Countable.html">\( \mathbb{R} \) is second-countable</a>,
+by <a href="/P-S-Topology/theorems/Thm-30-3.html">Theorem 30.3(b)</a>,
 \( \mathbb{R} \) is separable. 

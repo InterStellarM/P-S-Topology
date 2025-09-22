@@ -1,2 +1,2 @@
-<a href="/proofs/R_l**2/T3/R_l**2--T3.html">\( \mathbb{R}_l^2 \) is regular (T3)</a> \( \Rightarrow \) \( \mathbb{R}_l^2 \) is Hausdorff (T2).
+<a href="/P-S-Topology/proofs/R_l**2/T3/R_l**2--T3.html">\( \mathbb{R}_l^2 \) is regular (T3)</a> \( \Rightarrow \) \( \mathbb{R}_l^2 \) is Hausdorff (T2).
 

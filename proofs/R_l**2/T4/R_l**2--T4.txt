@@ -1,4 +1,4 @@
-Prove by contradiction: assume \( \mathbb{R}_l^2 \) is <a href="/definitions/T4.html">normal (T4)</a>.
+Prove by contradiction: assume \( \mathbb{R}_l^2 \) is <a href="/P-S-Topology/definitions/T4.html">normal (T4)</a>.
 
 Let \( L = \{(x,-x) : x \in \mathbb{R}\} \subset \mathbb{R}_l^2 \). Then \(L\) is closed in \(\mathbb{R}_l^2\), and with the subspace topology it is discrete.
 
@@ -41,6 +41,6 @@ $$ \mathcal{P}(L) \xrightarrow{\ \theta\ } \mathcal{P}(D) \xrightarrow{\ \psi\ }
 
 is injective. 
 
-But by <a href="/theorems/Thm-7-8.html">Theorem 7.8</a> there is no injective map from \(\mathcal{P}(L)\) into \(L\). \( \Rightarrow\Leftarrow \)
+But by <a href="/P-S-Topology/theorems/Thm-7-8.html">Theorem 7.8</a> there is no injective map from \(\mathcal{P}(L)\) into \(L\). \( \Rightarrow\Leftarrow \)
 
 Hence \( \mathbb{R}_l^2 \) is <em>not</em> normal (T4).

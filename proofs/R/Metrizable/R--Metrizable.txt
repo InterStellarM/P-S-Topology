@@ -8,7 +8,7 @@ d: \mathbb{R} \times \mathbb{R} &\to \mathbb{R} \\
 $$
 
 
-<b>Claim:</b> \(d\) is a <a href="/definitions/Metric.html">metric</a>.
+<b>Claim:</b> \(d\) is a <a href="/P-S-Topology/definitions/Metric.html">metric</a>.
 
 <b>Proof:</b> 
 

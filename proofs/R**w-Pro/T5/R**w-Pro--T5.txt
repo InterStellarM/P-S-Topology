@@ -1,5 +1,5 @@
-Because <a href="/proofs/R**w-Pro/Metrizable/R**w-Pro--Metrizable.html">\( \mathbb{R}^\omega \) with the product topology is metrizable</a>,
+Because <a href="/P-S-Topology/proofs/R**w-Pro/Metrizable/R**w-Pro--Metrizable.html">\( \mathbb{R}^\omega \) with the product topology is metrizable</a>,
 
-and <a href="/theorems/Exercise-32-7-d.html">any metrizable space is completely normal (T5)</a>.
+and <a href="/P-S-Topology/theorems/Exercise-32-7-d.html">any metrizable space is completely normal (T5)</a>.
 
 Therefore \( \mathbb{R}^\omega \) with the product topology is completely normal (T5).

@@ -1,1 +1,1 @@
- <a href="/proofs/R_l/T4/R_l--T4.html"> \( \mathbb{R}_l\) is normal (T4) </a> \( \Rightarrow \mathbb{R}_l \) is completely regular (T3.5).
+ <a href="/P-S-Topology/proofs/R_l/T4/R_l--T4.html"> \( \mathbb{R}_l\) is normal (T4) </a> \( \Rightarrow \mathbb{R}_l \) is completely regular (T3.5).

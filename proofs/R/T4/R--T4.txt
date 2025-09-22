@@ -1,1 +1,1 @@
-Since <a href="/proofs/R/Metrizable/R--Metrizable.html">\(\mathbb{R}\) is metrizable</a>, by <a href="/theorems/Thm-32-2.html">theorem 32.2</a>, it is normal.
+Since <a href="/P-S-Topology/proofs/R/Metrizable/R--Metrizable.html">\(\mathbb{R}\) is metrizable</a>, by <a href="/P-S-Topology/theorems/Thm-32-2.html">theorem 32.2</a>, it is normal.

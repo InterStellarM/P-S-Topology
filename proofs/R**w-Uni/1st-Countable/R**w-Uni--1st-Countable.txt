@@ -1,5 +1,5 @@
-Because <a href="/proofs/R**w-Uni/Metrizable/R**w-Uni--Metrizable.html">\( \mathbb{R}^\omega \) with the uniform topology is metrizable</a>,
+Because <a href="/P-S-Topology/proofs/R**w-Uni/Metrizable/R**w-Uni--Metrizable.html">\( \mathbb{R}^\omega \) with the uniform topology is metrizable</a>,
 
-and <a href="/proofs/general/Metrizable/General--Metrizable-First-Countable.html">every metrizable space is first countable</a>.
+and <a href="/P-S-Topology/proofs/general/Metrizable/General--Metrizable-First-Countable.html">every metrizable space is first countable</a>.
 
-Therefore \( \mathbb{R}^\omega \) with the uniform topology is <a href="/definitions/1st-Countable.html">first countable</a>.
+Therefore \( \mathbb{R}^\omega \) with the uniform topology is <a href="/P-S-Topology/definitions/1st-Countable.html">first countable</a>.

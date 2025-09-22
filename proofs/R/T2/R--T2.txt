@@ -1,1 +1,1 @@
-<a href="/proofs/R/T4/R--T4.html"> \(\mathbb{R}\) is normal (T4).</a> \(\Rightarrow\) \(\mathbb{R}\) is Hausdorff (T2).
+<a href="/P-S-Topology/proofs/R/T4/R--T4.html"> \(\mathbb{R}\) is normal (T4).</a> \(\Rightarrow\) \(\mathbb{R}\) is Hausdorff (T2).

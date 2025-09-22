@@ -1,5 +1,5 @@
-Because <a href="/proofs/R/2nd-Countable/R--2nd-Countable.html">\( \mathbb{R} \) is second-countable</a> and <a href="/definitions/R**w-Pro.html">\( \mathbb{R}^\omega \) with the product topology</a> is the countable product of copies of \( \mathbb{R} \).
+Because <a href="/P-S-Topology/proofs/R/2nd-Countable/R--2nd-Countable.html">\( \mathbb{R} \) is second-countable</a> and <a href="/P-S-Topology/definitions/R**w-Pro.html">\( \mathbb{R}^\omega \) with the product topology</a> is the countable product of copies of \( \mathbb{R} \).
 
-<a href="/theorems/Thm-30-2.html">Theorem&nbsp;30.2(b)</a> states that a countable product of <a href="/definitions/2nd-Countable.html">second-countable</a> spaces is second-countable.
+<a href="/P-S-Topology/theorems/Thm-30-2.html">Theorem&nbsp;30.2(b)</a> states that a countable product of <a href="/P-S-Topology/definitions/2nd-Countable.html">second-countable</a> spaces is second-countable.
 
 Therefore \( \mathbb{R}^\omega \) with the product topology is second-countable.

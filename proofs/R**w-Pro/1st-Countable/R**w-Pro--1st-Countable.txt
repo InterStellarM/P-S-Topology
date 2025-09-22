@@ -1,2 +1,2 @@
-Because <a href="/proofs/R**w-Pro/2nd-Countable/R**w-Pro--2nd-Countable.html">\( \mathbb{R}^\omega \) with the product topology is second-countable</a>, \( \mathbb{R}^\omega \) with the product topology is first-countable.
+Because <a href="/P-S-Topology/proofs/R**w-Pro/2nd-Countable/R**w-Pro--2nd-Countable.html">\( \mathbb{R}^\omega \) with the product topology is second-countable</a>, \( \mathbb{R}^\omega \) with the product topology is first-countable.
 (This is stated in Munkres \( \S \) 30 after definition of second-countable)

@@ -1,3 +1,3 @@
-Because <a href="/proofs/R**w-Pro/2nd-Countable/R**w-Pro--2nd-Countable.html">\( \mathbb{R}^\omega \) with the product topology is second-countable</a>,
-by <a href="/theorems/Thm-30-3.html">Theorem&nbsp;30.3(a)</a>,
-\( \mathbb{R}^\omega \) with the product topology is <a href="/definitions/Lindelof.html">Lindelöf</a>.
+Because <a href="/P-S-Topology/proofs/R**w-Pro/2nd-Countable/R**w-Pro--2nd-Countable.html">\( \mathbb{R}^\omega \) with the product topology is second-countable</a>,
+by <a href="/P-S-Topology/theorems/Thm-30-3.html">Theorem&nbsp;30.3(a)</a>,
+\( \mathbb{R}^\omega \) with the product topology is <a href="/P-S-Topology/definitions/Lindelof.html">Lindelöf</a>.

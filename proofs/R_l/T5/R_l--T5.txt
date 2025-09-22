@@ -2,7 +2,7 @@ Let \(A,B \subseteq \mathbb{R}_l\) be separated sets.
 
 If \(\overline{A} \cap \overline{B} = \varnothing\), we can write \( \overline{A} = [a, b] \), \( \overline{B} = [c, d] \) where \( a < b < c < d \)
 
-Because <a href="/proofs/R_l/T4/R_l--T4.html">\( \mathbb{R}_l \) is normal (T4)</a>,
+Because <a href="/P-S-Topology/proofs/R_l/T4/R_l--T4.html">\( \mathbb{R}_l \) is normal (T4)</a>,
 
 \( \exists \) disjoint open \( U, V \) such that \( A \subseteq \overline{A} \subseteq U \), \( B \subseteq \overline{B} \subseteq V \).
 
@@ -10,7 +10,7 @@ Because <a href="/proofs/R_l/T4/R_l--T4.html">\( \mathbb{R}_l \) is normal (T4)<
 
 If \(\overline{A} \cap \overline{B} \neq \varnothing\). 
 
-Proved in <a href="/theorems/Exercise-32-6.html">Exercise&nbsp;32.6 claim 2</a>, \( A \cap (\overline{A} \cap \overline{B}) = \varnothing \), \( B \cap (\overline{A} \cap \overline{B}) = \varnothing \).
+Proved in <a href="/P-S-Topology/theorems/Exercise-32-6.html">Exercise&nbsp;32.6 claim 2</a>, \( A \cap (\overline{A} \cap \overline{B}) = \varnothing \), \( B \cap (\overline{A} \cap \overline{B}) = \varnothing \).
 
 \( \Rightarrow A, B \) can only have form \( \{ (a, b) \) or \( [a, b) \} \) and \( \{ (b, c) \) or \( (b, c] \} \) respectively, where \( a < b < c \)
 
@@ -18,4 +18,4 @@ So \(U = [a-1,b)\) and \(V = [b,c+1)\) are 2 disjoint open sets such that \(A \s
 
 \(\)
 
-\( \Rightarrow \) by <a href="/theorems/Exercise-32-6.html">Exercise&nbsp;32.6</a>, \( \mathbb{R}_l \) is completely normal (T5).
+\( \Rightarrow \) by <a href="/P-S-Topology/theorems/Exercise-32-6.html">Exercise&nbsp;32.6</a>, \( \mathbb{R}_l \) is completely normal (T5).
