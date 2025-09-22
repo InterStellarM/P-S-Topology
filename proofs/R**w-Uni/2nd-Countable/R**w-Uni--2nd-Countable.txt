@@ -1,0 +1,1 @@
+<em>Proof stub:</em> Details showing why \( \mathbb{R}^\omega \) with the uniform topology fails to be <a href="/definitions/2nd-Countable.html">second-countable</a> will be added here soon.
