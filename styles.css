@@ -30,7 +30,8 @@ body {
     overflow-y: auto; /* Enable vertical scrolling */
     max-height: calc(105vh - 100px); /* Leave room for the header link */
     max-width: 100vw; /* Limit the width to the viewport */
-    padding: 10px;
+    padding: 0 10px 10px 10px;
+    margin-top: 10px;
     box-sizing: border-box;
 }
 
@@ -58,6 +59,8 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 16px;
+    position: relative;
+    z-index: 0;
 }
 
 /* Styling for Header (First Row and Column) */
@@ -65,7 +68,7 @@ body {
 
     position: sticky;
     top: 0;
-    z-index: 1; 
+    z-index: 100; 
     background-color: #007bff;
     color: white;
     text-align: center;
@@ -87,6 +90,7 @@ body {
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.5s;
+    z-index: 0;
 }
 
 /* Flip the card when clicked */
