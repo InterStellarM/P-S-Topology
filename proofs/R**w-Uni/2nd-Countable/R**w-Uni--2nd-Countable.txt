@@ -1,1 +1,36 @@
-<em>Proof stub:</em> Details showing why \( \mathbb{R}^\omega \) with the uniform topology fails to be <a href="/definitions/2nd-Countable.html">second-countable</a> will be added here soon.
+Prove by contradiction: \( \mathbb{R}^w \) with uniform topology is <a href="/definitions/2nd-Countable.html">second-countable</a>.
+
+\(\)
+
+<b>Claim 1:</b> If X has a countable basis \( \mathcal{B} \), and \( A \subseteq X \) is <a href="/definitions/Discrete.html">discrete</a> (as a subspace), then A is countable.
+<b>Proof: </b> 
+Because \( A \) is discrete, and by <a href="/definitions/Subspace-Topology.html">definition of subspace topology</a> ,\( \forall a \in A \), \( \exists \) open \( V_a \subseteq X \) such that \( V_a \cap A = \{ a \} \).
+
+Choose \( B_a \in \mathcal{B} \) such that \( a \in B_a \subseteq V_a \). 
+
+If \( a \neq b\) then \( B_a \neq B_b \)  as \( B_a \subseteq V_a \)  contains no point of \(A\) except \(a\).
+
+\( \Rightarrow a \mapsto B_a \) is injective from \(A\) into the countable set \( \mathcal{B} \).
+
+\( \Rightarrow A \) is countable.
+
+\(\)
+
+Then let \( A = \{0, 1\}^\omega \) which is sequences of 0’s and 1’s in \( \mathbb{R}^\omega \). 
+
+<b>Claim 2:</b> \( A \) is a discrete subspace.
+<b>Proof: </b> 
+If \( a \neq  b\) in \(A\), pick a coordinate \(j\) where they differ. 
+
+Then \( \left| a_j - b_j \right| = 1 \), so \( \min\{ \left| a_j - b_j \right|, 1 \} = 1 \). Hence <a href="/definitions/R**w-Uni.html">\( \bar{\rho}(a, b) \)</a> \(= \sup_n \{ \min\{ \left| a_n - b_n \right|, 1\} \} = 1 \).
+
+Therefore the open ball \( B_{\bar{\rho}}(a, \frac{1}{2}) \) contains no other point of \(A\) \( \iff \) \( B_{\bar{\rho}}(a, \frac{1}{2}) \cap A = \{a\} \).
+
+\( \Rightarrow \) every singleton \( \{a\} \) is open in \(A\) \(\iff\) \(A\) is discrete.
+
+\(\)
+
+
+Then, if \( \mathbb{R}^w \) with uniform topology is second-countable, A is countable by claims. But by <a href="/theorems/Thm-7-7.html">Theorem 7.7</a>, \(A\) is uncountable.  \( \Rightarrow\Leftarrow \)
+
+Hence \( \mathbb{R}^w \) with uniform topology is <em>not</em> second-countable.
