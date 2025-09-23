@@ -1,0 +1,30 @@
+Let \( A = (0, \infty) \times (0, \infty) \times ... \subseteq \mathbb{R}^w \)
+
+<b>Claim: </b> \( 0 \in \bar{A} \) but \( \nexists \) sequence \( \{ \bar{x}_n \} \) in \(A\) that converges to \( \bar{0} \).
+
+<b>Proof: </b> 
+By <a href="/P-S-Topology/definitions/Convergence.html">definition of convergence</a>, we want to show \(\forall\) sequence \( \{\bar{x}_n\} \) in \(A\), there is an open \( U \) containing 0 and \( \bar{x}_n \notin U \)  \(\forall n \).
+
+For all sequence \( \{\bar{x}_n\} \) in \(A\), denote them as:
+
+$$
+\require{color}
+\begin{array}{l}
+\bar{x}_1 = \color{#42a5f5}{x_{11}}\; \color{black}{x_{12}}\; \color{black}{x_{13}}\; \cdots \\
+\bar{x}_2 = \color{black}{x_{21}}\; \color{#42a5f5}{x_{22}}\; \color{black}{x_{23}}\; \cdots \\
+\bar{x}_3 = \color{black}{x_{31}}\; \color{black}{x_{32}}\; \color{#42a5f5}{x_{33}}\; \cdots \\
+\text{...}
+\end{array}
+$$
+
+with all \( x_{ij} > 0 \) as \( \bar{x}_n \in A \) \( \forall n \).
+
+Let \( U_j = (-\frac{\color{#42a5f5}{x_{jj}}}{2}, \frac{\color{#42a5f5}{x_{jj}}}{2}) \), and \( U = U_1 \times U_2 \times U_3 \times ... \).
+
+Therefore \( \bar{0} \in U \) but \( \color{#42a5f5}{x_{jj}} \notin U_j \)
+
+\( \Rightarrow \bar{x}_j \notin U \)  \( \forall j \).
+
+
+
+Then by contrapositive of <a href="/P-S-Topology/lemma/Lemma-21-2.html">sequence lemma (b)</a>, \( \mathbb{R}^w \) with box topology is not metrizable.

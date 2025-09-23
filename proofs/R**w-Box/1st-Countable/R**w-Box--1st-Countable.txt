@@ -1,0 +1,3 @@
+Proof is the same as <a href="/P-S-Topology/proofs/R**w-Box/Metrizable/R**w-Box--Metrizable.html">\( \mathbb{R}^w \) with box topology is not metrizable</a>.
+
+A space doesn't satisfies the sequence lemma (b) is not first-countable. See comment of <a href="/P-S-Topology/lemma/Lemma-21-2.html">sequence lemma</a>, 
