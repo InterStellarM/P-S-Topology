@@ -1,0 +1,32 @@
+\(1^\circ \text{ ( \( \mathbb{R}^\omega \) with box topology is T1 ) }: \) 
+
+For \( x = (x_1, x_2, x_3 ...) \in \mathbb{R}^\omega \), 
+
+$$
+\{x\} = \bigcap_{n=1}^{\infty} \pi_n^{-1}\!\big(\{x_n\}\big)
+$$
+
+where \( \pi_n \) is the \(n\)-th coordinate projection.
+
+Each \( \pi_n \) is continuous in the box topology, and \( {x_n} \) is closed in \( \mathbb{R} \); hence \( \pi_n^{-1}(\{x_n\}) \) is closed.
+
+Intersections of closed sets are closed, so \( \{x\} \) is closed.
+
+
+\(  \)
+
+\(2^\circ (\text{ Regularity }) \):
+
+For \( x = (x_1, x_2, x_3 ...) \in \mathbb{R}^\omega \), let \( U = \prod_n U_n \) be a basic open box with \( x \in U \), where \( U_n \) is open and \( x_n \in U_n \) \(\forall n\).
+
+<a href="/P-S-Topology/proofs/R/T3/R--T3.html">\( \mathbb{R} \) is regular</a>, so by <a href="/P-S-Topology/lemma/Lemma-31-1.html">lemma 31.1 (a)</a>, \( \forall n\), \(\exists \) open \( V_n \subseteq \mathbb{R} \) such that \( x_n \in V_n \subseteq \overline{V_n} \subseteq U_n \).
+
+Set \( V = \prod_n V_n \). Then \( V \) is a open box with \( x \in V \).
+
+By <a href="/P-S-Topology/theorems/Thm-19-9.html">theorem 19.9</a>, \( \overline{V} = \overline{\prod_n V_n} = \prod_n{\overline{V_n}} \subseteq \prod_n{U_n} = U \).
+
+\( \Rightarrow x \in V \subseteq \overline{V} \subseteq U \).
+
+\( \Rightarrow \mathbb{R}^\omega \) with box topology is <a href="/P-S-Topology/definitions/T3.html">regular (T3)</a> by <a href="/P-S-Topology/lemma/Lemma-31-1.html">lemma 31.1 (a)</a>.
+
+
