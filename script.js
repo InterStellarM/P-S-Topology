@@ -47,12 +47,12 @@ for (let i = 0; i < numRows; i++) {
 
         // Top-left corner cell (empty)
         if (i === 0 && j === 0) {
-            gridItem.classList.add('transparent');
+            gridItem.classList.add('transparent', 'corner-cell');
             gridItem.innerHTML = ''; // Keep it empty
         }
         // Header cells (first row)
         else if (i === 0) {
-            gridItem.classList.add('header');
+            gridItem.classList.add('header', 'col-header');
             // gridItem.innerHTML = gridData.headers[j]; // Set header content
             gridItem.innerHTML = `
                 <a href="definitions/${colHeaders[j-1]}.html" style="color: inherit; text-decoration: none;">${gridData.headers[j]}</a>
@@ -60,7 +60,7 @@ for (let i = 0; i < numRows; i++) {
         }
         // Row labels (first column)
         else if (j === 0) {
-            gridItem.classList.add('header');
+            gridItem.classList.add('header', 'row-header');
             // gridItem.innerHTML = gridData.rows[i - 1].label; // Set row label
             gridItem.innerHTML = `
                 <a href="definitions/${rowHeaders[i - 1]}.html" style="color: inherit; text-decoration: none;">${gridData.rows[i - 1].label}</a>

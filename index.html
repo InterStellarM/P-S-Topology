@@ -4,22 +4,97 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Math Jeopardy</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20240320" />
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"
       async
     ></script>
   </head>
   <body>
-    <div class="top-link">
-      <a href="/definitions/Topology.html"
-        >Definition of topology</a
-      >
-    </div>
-    <div class="grid-wrapper">
-      <div class="grid-container">
-        <script src="script.js"></script>
+    <div class="page-shell">
+      <div class="main-container">
+        <header class="page-header">
+          <div class="title-block">
+            <h1>Topology Jeopardy</h1>
+            <!-- <p class="tagline">Flip through classic spaces and their properties.</p> -->
+            <blockquote>
+              “We are finite creatures, but we are approaching our limits to
+              understand uncountable infinity.”
+              <!-- <span>— Henri Poincaré</span> -->
+            </blockquote>
+          </div>
+          <aside class="definition-card">
+            <h2>Definition of topology</h2>
+            <p>
+              A topology on a set \(X\) is a collection \(\mathcal{T}\) of
+              subsets of \(X\) that contains \(\varnothing\) and \(X\), is open
+              under arbitrary unions, and is closed under finite intersections.
+            </p>
+            <a
+              class="definition-link"
+              href="/P-S-Topology/definitions/Topology.html"
+              >Read the full definition</a
+            >
+          </aside>
+        </header>
+
+        <section class="grid-section">
+          <div class="grid-wrapper">
+            <div class="grid-container">
+              <script src="script.js?v=20240320"></script>
+            </div>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          © Jarvis Zhang &amp; Joyce Zhuang &bull; Spot an error or have
+          feedback?
+          <a href="mailto:pstopology@gmail.com">pstopology@gmail.com</a>
+        </footer>
       </div>
     </div>
+
+    <div class="tutorial-bar" id="tutorial-bar">
+      <div class="tutorial-inner">
+        <p>
+          Click a white card to flip.
+          <strong class="color-green">Green</strong> = holds,
+          <strong class="color-red">Red</strong> = doesn’t hold,
+          <strong class="color-yellow">Yellow</strong> = unknown. Click
+          <em>Proof</em> on a flipped card for details. Click a blue cell to see
+          definition of the term.
+        </p>
+        <button id="tutorial-dismiss" type="button">Dismiss</button>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        const BAR_ID = "tutorial-bar";
+        const STORAGE_KEY = "topology-jeopardy-tutorial-dismissed";
+
+        const bar = document.getElementById(BAR_ID);
+        if (!bar) return;
+
+        try {
+          if (localStorage.getItem(STORAGE_KEY) === "1") {
+            bar.remove();
+            return;
+          }
+        } catch (err) {
+          // ignore storage errors
+        }
+
+        const dismissButton = document.getElementById("tutorial-dismiss");
+        if (dismissButton) {
+          dismissButton.addEventListener("click", () => {
+            bar.classList.add("tutorial-hidden");
+            try {
+              localStorage.setItem(STORAGE_KEY, "1");
+            } catch (err) {}
+          });
+        }
+      })();
+    </script>
   </body>
 </html>
