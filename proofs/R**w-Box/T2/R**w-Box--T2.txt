@@ -1,0 +1,1 @@
+ <a href="/P-S-Topology/proofs/R**w-Box/T3/R**w-Box--T3.html"> \( \mathbb{R}^\omega \) with box topology is T3 </a> \( \Rightarrow \mathbb{R}^\omega \) with box topology is Hausdorff (T2).
