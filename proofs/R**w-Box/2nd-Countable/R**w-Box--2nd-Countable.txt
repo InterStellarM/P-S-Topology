@@ -1,0 +1,1 @@
+<a href="/P-S-Topology/proofs/R**w-Box/1st-Countable/R**w-Box--1st-Countable.html">\( \mathbb{R}^\omega \) with box topology is not first-countable</a> \( \Rightarrow \mathbb{R}^\omega \) with box topology is not second-countable.
