@@ -338,15 +338,15 @@ body {
 }
 
 .color-green {
-    color: #16a34a;
+    color: lime;
 }
 
 .color-red {
-    color: #dc2626;
+    color: red;
 }
 
 .color-yellow {
-    color: #d97706;
+    color: yellow;
 }
 
 .tutorial-inner button {

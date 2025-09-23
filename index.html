@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Math Jeopardy</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20240320" />
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"
       async
@@ -41,7 +41,7 @@
         <section class="grid-section">
           <div class="grid-wrapper">
             <div class="grid-container">
-              <script src="script.js"></script>
+              <script src="script.js?v=20240320"></script>
             </div>
           </div>
         </section>
@@ -57,9 +57,11 @@
     <div class="tutorial-bar" id="tutorial-bar">
       <div class="tutorial-inner">
         <p>
-          Click a white cell to flip. <strong class="color-green">Green</strong> = holds,
-          <strong class="color-red">Red</strong> = doesn’t, <strong class="color-yellow">Yellow</strong> = unknown.
-          Click <em>Proof</em> on a flipped card for details.
+          Click a white cell to flip.
+          <strong class="color-green">Green</strong> = holds,
+          <strong class="color-red">Red</strong> = doesn’t hold,
+          <strong class="color-yellow">Yellow</strong> = unknown. Click
+          <em>Proof</em> on a flipped card for details.
         </p>
         <button id="tutorial-dismiss" type="button">Dismiss</button>
       </div>
