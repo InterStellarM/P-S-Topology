@@ -304,3 +304,65 @@ body {
 .site-footer a:hover {
     text-decoration: underline;
 }
+
+.tutorial-bar {
+    position: fixed;
+    left: 16px;
+    right: 16px;
+    bottom: 24px;
+    z-index: 500;
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.tutorial-inner {
+    max-width: 720px;
+    width: 100%;
+    background: rgba(99, 102, 241, 0.12);
+    border: 1px solid rgba(99, 102, 241, 0.35);
+    border-radius: 14px;
+    padding: 10px 16px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 10px 30px rgba(79, 70, 229, 0.2);
+    pointer-events: auto;
+}
+
+.tutorial-inner p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #1f2933;
+}
+
+.color-green {
+    color: #16a34a;
+}
+
+.color-red {
+    color: #dc2626;
+}
+
+.color-yellow {
+    color: #d97706;
+}
+
+.tutorial-inner button {
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: #1d4ed8;
+    font-size: 0.85rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.tutorial-inner button:hover {
+    color: #1e3a8a;
+}
+
+.tutorial-hidden {
+    display: none;
+}

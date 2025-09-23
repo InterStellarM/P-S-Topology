@@ -53,5 +53,45 @@
         </footer>
       </div>
     </div>
+
+    <div class="tutorial-bar" id="tutorial-bar">
+      <div class="tutorial-inner">
+        <p>
+          Click a white cell to flip. <strong class="color-green">Green</strong> = holds,
+          <strong class="color-red">Red</strong> = doesn’t, <strong class="color-yellow">Yellow</strong> = unknown.
+          Click <em>Proof</em> on a flipped card for details.
+        </p>
+        <button id="tutorial-dismiss" type="button">Dismiss</button>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        const BAR_ID = "tutorial-bar";
+        const STORAGE_KEY = "topology-jeopardy-tutorial-dismissed";
+
+        const bar = document.getElementById(BAR_ID);
+        if (!bar) return;
+
+        try {
+          if (localStorage.getItem(STORAGE_KEY) === "1") {
+            bar.remove();
+            return;
+          }
+        } catch (err) {
+          // ignore storage errors
+        }
+
+        const dismissButton = document.getElementById("tutorial-dismiss");
+        if (dismissButton) {
+          dismissButton.addEventListener("click", () => {
+            bar.classList.add("tutorial-hidden");
+            try {
+              localStorage.setItem(STORAGE_KEY, "1");
+            } catch (err) {}
+          });
+        }
+      })();
+    </script>
   </body>
 </html>
