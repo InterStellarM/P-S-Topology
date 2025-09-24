@@ -1,4 +1,4 @@
-Prove by contradiction: \( \mathbb{R}^w \) with uniform topology is <a href="/P-S-Topology/definitions/2nd-Countable.html">second-countable</a>.
+Prove by contradiction: Assume \( \mathbb{R}^w \) with uniform topology is <a href="/P-S-Topology/definitions/2nd-Countable.html">second-countable</a>.
 
 \(\)
 
