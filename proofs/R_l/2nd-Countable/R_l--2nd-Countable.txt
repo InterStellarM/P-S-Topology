@@ -1,8 +1,15 @@
 Let \( \mathcal{B} \) be a basis of \( \mathbb{R}_l \).
+
 For each \(x\), \( [x, x+1) \) is open in \( \mathbb{R}_l \).
+
 So by <a href="/P-S-Topology/definitions/Basis.html">definition of basis</a>, \( \exists B_x \in \mathcal{B} \) such that \( x \in B_x \ \subseteq [x, x+1) \).
+
 If \( x \neq y \), then \( B_x \neq B_y\) \(\text{,}\) since \( x =  \inf B_x \) and \( y =  \inf B_y \).
+
 There are uncountable many of \(x\) in \(\mathbb{R}_l\) \(\text{,}\) so there are uncountable many of \( B_x \) in \( \mathcal{B} \).
+
 Therefore \( \mathcal{B} \) is uncountable.
+
 \(\iff \nexists \) a countable basis of  \( \mathbb{R}_l \).
+
 \(\implies \mathbb{R}_l\) is not second-countable 
