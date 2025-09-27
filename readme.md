@@ -2,7 +2,7 @@
 
 **You may directly access the webpage through this link: [https://interstellarm.github.io/P-S-Topology/](https://interstellarm.github.io/P-S-Topology/)**
 
-## Getting started:
+## To run locally:
 You may start using the panel either:
 1. In your local file browser, double-click the index.html file and the panel should pop up automatically in your default web browser.
 2. Run the python script launcher.py
