@@ -65,8 +65,9 @@ body {
 .title-block blockquote span {
     font-style: normal;
     color: #475569;
-    display: inline-block;
-    margin-left: 6px;
+    display: block;
+    margin-top: 8px;
+    text-align: right;
 }
 
 .definition-card {
