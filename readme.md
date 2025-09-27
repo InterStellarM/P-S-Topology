@@ -1,5 +1,7 @@
 # P-S-Topology
 
+**You may directly access the webpage through this link: [https://interstellarm.github.io/P-S-Topology/](https://interstellarm.github.io/P-S-Topology/)**
+
 ## Getting started:
 You may start using the panel either:
 1. In your local file browser, double-click the index.html file and the panel should pop up automatically in your default web browser.
